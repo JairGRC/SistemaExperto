@@ -19,6 +19,7 @@
                 <h2>Test Vocacional</h2>
             </div>
             <div class="card-body ms-4">
+                
                 <div class="select-p">
                     <p><STRONG><?php pregunta1('$nombreCarrera'); ?></STRONG></p>
                     <select id="p1" name="p1" class="form-select text-center " aria-label="Default select example">
