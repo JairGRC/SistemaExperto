@@ -4,8 +4,8 @@
 function pregunta1($nombreCarrera)
 {
     $nombreCarrera = "Ingeniero_Agricola";
-    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "pregunta_carrera($nombreCarrera). -t 'halt'"`;
-    exec($command, $preguntas);
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaIngeniero_Agricola($nombreCarrera). -t 'halt'"`;
+    exec($command);
     //echo $command;
     $data = $command;
     list($p1, $p2, $p3) = explode(",", $data);
@@ -15,8 +15,8 @@ function pregunta1($nombreCarrera)
 function pregunta2($nombreCarrera)
 {
     $nombreCarrera = "Ingeniero_Agricola";
-    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "pregunta_carrera($nombreCarrera). -t 'halt'"`;
-    exec($command, $preguntas);
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaIngeniero_Agricola($nombreCarrera). -t 'halt'"`;
+    exec($command);
     //echo $command;
     $data = $command;
     list($p1, $p2, $p3) = explode(",", $data);
@@ -26,8 +26,8 @@ function pregunta2($nombreCarrera)
 function pregunta3($nombreCarrera)
 {
     $nombreCarrera = "Ingeniero_Agricola";
-    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "pregunta_carrera($nombreCarrera). -t 'halt'"`;
-    exec($command, $preguntas);
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaIngeniero_Agricola($nombreCarrera). -t 'halt'"`;
+    exec($command);
     //echo $command;
     $data = $command;
     list($p1, $p2, $p3) = explode(",", $data);
@@ -38,8 +38,8 @@ function pregunta3($nombreCarrera)
 function pregunta4($nombreCarrera)
 {
     $nombreCarrera = "Ingeniero_Zooctenista";
-    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "pregunta_carrera($nombreCarrera). -t 'halt'"`;
-    exec($command, $preguntas);
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaIngeniero_Zooctenista($nombreCarrera). -t 'halt'"`;
+    exec($command);
     //echo $command;
     $data = $command;
     list($p4, $p5, $p6) = explode(",", $data);
@@ -50,8 +50,8 @@ function pregunta4($nombreCarrera)
 function pregunta5($nombreCarrera)
 {
     $nombreCarrera = "Ingeniero_Zooctenista";
-    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "pregunta_carrera($nombreCarrera). -t 'halt'"`;
-    exec($command, $preguntas);
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaIngeniero_Zooctenista($nombreCarrera). -t 'halt'"`;
+    exec($command);
     //echo $command;
     $data = $command;
     list($p4, $p5, $p6) = explode(",", $data);
@@ -63,8 +63,8 @@ function pregunta5($nombreCarrera)
 function pregunta6($nombreCarrera)
 {
     $nombreCarrera = "Ingeniero_Zooctenista";
-    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "pregunta_carrera($nombreCarrera). -t 'halt'"`;
-    exec($command, $preguntas);
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaIngeniero_Zooctenista($nombreCarrera). -t 'halt'"`;
+    exec($command);
     //echo $command;
     $data = $command;
     list($p4, $p5, $p6) = explode(",", $data);
