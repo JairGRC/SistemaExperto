@@ -16,7 +16,7 @@
     
     <div class="card">
         <div class="card-header">
-           Resultado de La evaluacion
+        Resultado de La evaluacion
         </div>
         <div class="card-body">
             <h5 class="card-title"><?php echo $var=str_replace("_"," ",$var) ?></h5>
