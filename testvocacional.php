@@ -21,8 +21,6 @@
             </div>
             <div class="card-body ms-4">
             
-
-
                 <div id="Ingeniero_Agricola">
                     <?php 
                     for($i=1;$i<4;$i++){
