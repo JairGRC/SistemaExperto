@@ -43,8 +43,6 @@
                     ?>
                 </div>
 
-
-
                 <div id="Ingeniero_Zooctenista" style="display: none;">
                     <?php
                     for ($i = 4; $i < 7; $i++) {
