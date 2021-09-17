@@ -21,57 +21,28 @@
             <div class="card-header text-center">
                 <h2>Test Vocacional</h2>
             </div>
+
             <div class="card-body ms-4">
-            
+
                 <div id="Ingeniero_Agricola">
-                    <?php
-                    for ($i = 1; $i < 4; $i++) {
-                        $temp = 'pregunta' . $i;
-                    ?>
+                <?php 
+                    for($i=1;$i<4;$i++){
+                        $temp='pregunta'.$i;
+                        ?>
                         <div class="select-p">
-
-                            <p><STRONG><?php call_user_func($GLOBALS["temp"], '$nombreCarrera');
-                                        ?></STRONG></p>
-                            <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
-                                <option selected>Opcion</option>
-                                <option value="si">Si</option>
-                                <option value="no">No</option>
-                            </select>
-
                         <p><STRONG><?php call_user_func($GLOBALS["temp"],'$nombreCarrera');
                         ?></STRONG></p>
                         <select id="<?php echo "p$i"?>"   name="<?php echo "p$i"?>" class="form-select text-center " aria-label="Default select example" >
-                    <div class="select-p">
-                        <p><STRONG><?php pregunta1('$nombreCarrera'); ?></STRONG></p>
-                        <select name="p1" class="form-select text-center " aria-label="Default select example" id="p1">
-                            <option selected>Opcion</option>
+                        <option selected>Opcion</option>
                             <option value="si">Si</option>
                             <option value="no">No</option>
                         </select>
-                    </div>
-                    <div class="select-p">
-                        <p><STRONG><?php pregunta2('$nombreCarrera'); ?></STRONG></p>
-                        <select name="p2" class="form-select text-center " aria-label="Default select example" id="p2">
-                            <option selected>Opcion</option>
-                            <option value="si">Si</option>
-                            <option value="no">No</option>
-                        </select>
-                    </div>
-                    
-                    <div class="select-p">
-                        <p><STRONG><?php pregunta3('$nombreCarrera'); ?></STRONG></p>
-                        <select name="p3" class="form-select text-center " aria-label="Default select example" id="p3">
-
-                            <option selected>Opcion</option>
-                            <option value="si">Si</option>
-                            <option value="no">No</option>
-                        </select>
-
                         </div>
-                    <?php
+                        <?php
                     }
                     ?>
                 </div>
+
 
 
                 <div id="Ingeniero_Zooctenista" style="display: none;">
