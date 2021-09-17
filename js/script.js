@@ -72,6 +72,7 @@ document.addEventListener("DOMContentLoaded", function () {
       ) {
         document.getElementById("Ingeniero_Zooctenista").style.display =
           "block";
+          document.getElementById("enviar").style.display = "none";
       } 
     } else if (
       Optionp1.value == "si" &&
@@ -87,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
   select5.addEventListener("change", function () {
     Optionp2 = this.options[select5.selectedIndex];
-    console.log(Optionp2);
+    
   });
 
   select6.addEventListener("change", function () {
@@ -136,7 +137,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
   select8.addEventListener("change", function () {
     Optionp2 = this.options[select8.selectedIndex];
-    console.log(Optionp2);
+    
   });
 
   select9.addEventListener("change", function () {
@@ -189,7 +190,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
   select11.addEventListener("change", function () {
     Optionp2 = this.options[select11.selectedIndex];
-    console.log(Optionp2);
+    
   });
 
   select12.addEventListener("change", function () {
@@ -237,15 +238,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
   
   select13.addEventListener("change", function () {
-    Optionp1 = this.options[select10.selectedIndex];
+    Optionp1 = this.options[select13.selectedIndex];
   });
   select14.addEventListener("change", function () {
-    Optionp2 = this.options[select11.selectedIndex];
-    console.log(Optionp2);
+    Optionp2 = this.options[select14.selectedIndex];
+    
   });
 
   select15.addEventListener("change", function () {
-    Optionp3 = this.options[select12.selectedIndex];
+    Optionp3 = this.options[select15.selectedIndex];
     if (
       (Optionp1.value == "no" &&
         Optionp2.value == "no" &&
@@ -286,5 +287,214 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
+  select16.addEventListener("change", function () {
+    Optionp1 = this.options[select16.selectedIndex];
+  });
+  select17.addEventListener("change", function () {
+    Optionp2 = this.options[select17.selectedIndex];
+    
+  });
+
+  select18.addEventListener("change", function () {
+    Optionp3 = this.options[select18.selectedIndex];
+    
+    if (
+      (Optionp1.value == "no" &&
+        Optionp2.value == "no" &&
+        Optionp3.value == "no") ||
+      (Optionp1.value == "no" &&
+        Optionp2.value == "no" &&
+        Optionp3.value == "si") ||
+      (Optionp1.value == "no" &&
+        Optionp2.value == "si" &&
+        Optionp3.value == "si") ||
+      (Optionp1.value == "si" &&
+        Optionp2.value == "no" &&
+        Optionp3.value == "no") ||
+      (Optionp1.value == "si" &&
+        Optionp2.value == "si" &&
+        Optionp3.value == "no") ||
+      (Optionp1.value == "no" &&
+        Optionp2.value == "si" &&
+        Optionp3.value == "no") ||
+      (Optionp1.value == "si" &&
+        Optionp2.value == "no" &&
+        Optionp3.value == "si")
+    ) {
+      document.getElementById("Licenciado_en_Fisica").style.display = "none";
+      if (
+        document.getElementById("Licenciado_en_Fisica").style.display == "none"
+        
+      ) {
+        document.getElementById("Licenciado_en_Matematicas").style.display =
+          "block";
+      }
+    } else if (
+      Optionp1.value == "si" &&
+      Optionp2.value == "si" &&
+      Optionp3.value == "si"
+    ) {
+      document.getElementById("enviar").style.display = "block";
+    }
+  });
+
+
+
+  
+  select19.addEventListener("change", function () {
+    Optionp1 = this.options[select19.selectedIndex];
+  });
+  select20.addEventListener("change", function () {
+    Optionp2 = this.options[select20.selectedIndex];
+    
+  });
+
+  select21.addEventListener("change", function () {
+    Optionp3 = this.options[select21.selectedIndex];
+    
+    if (
+      (Optionp1.value == "no" &&
+        Optionp2.value == "no" &&
+        Optionp3.value == "no") ||
+      (Optionp1.value == "no" &&
+        Optionp2.value == "no" &&
+        Optionp3.value == "si") ||
+      (Optionp1.value == "no" &&
+        Optionp2.value == "si" &&
+        Optionp3.value == "si") ||
+      (Optionp1.value == "si" &&
+        Optionp2.value == "no" &&
+        Optionp3.value == "no") ||
+      (Optionp1.value == "si" &&
+        Optionp2.value == "si" &&
+        Optionp3.value == "no") ||
+      (Optionp1.value == "no" &&
+        Optionp2.value == "si" &&
+        Optionp3.value == "no") ||
+      (Optionp1.value == "si" &&
+        Optionp2.value == "no" &&
+        Optionp3.value == "si")
+    ) {
+      document.getElementById("Licenciado_en_Matematicas").style.display = "none";
+      if (
+        document.getElementById("Licenciado_en_Matematicas").style.display == "none"
+        
+      ) {
+        document.getElementById("Biologo").style.display =
+          "block";
+      }
+    } else if (
+      Optionp1.value == "si" &&
+      Optionp2.value == "si" &&
+      Optionp3.value == "si"
+    ) {
+      document.getElementById("enviar").style.display = "block";
+    }
+  });
+
+
+  select22.addEventListener("change", function () {
+    Optionp1 = this.options[select22.selectedIndex];
+  });
+  select23.addEventListener("change", function () {
+    Optionp2 = this.options[select23.selectedIndex];
+    
+  });
+
+  select24.addEventListener("change", function () {
+    Optionp3 = this.options[select24.selectedIndex];
+    
+    if (
+      (Optionp1.value == "no" &&
+        Optionp2.value == "no" &&
+        Optionp3.value == "no") ||
+      (Optionp1.value == "no" &&
+        Optionp2.value == "no" &&
+        Optionp3.value == "si") ||
+      (Optionp1.value == "no" &&
+        Optionp2.value == "si" &&
+        Optionp3.value == "si") ||
+      (Optionp1.value == "si" &&
+        Optionp2.value == "no" &&
+        Optionp3.value == "no") ||
+      (Optionp1.value == "si" &&
+        Optionp2.value == "si" &&
+        Optionp3.value == "no") ||
+      (Optionp1.value == "no" &&
+        Optionp2.value == "si" &&
+        Optionp3.value == "no") ||
+      (Optionp1.value == "si" &&
+        Optionp2.value == "no" &&
+        Optionp3.value == "si")
+    ) {
+      document.getElementById("Biologo").style.display = "none";
+      if (
+        document.getElementById("Biologo").style.display == "none"
+        
+      ) {
+        document.getElementById("Biologo_Microbiologo").style.display =
+          "block";
+      }
+    } else if (
+      Optionp1.value == "si" &&
+      Optionp2.value == "si" &&
+      Optionp3.value == "si"
+    ) {
+      document.getElementById("enviar").style.display = "block";
+    }
+  });
+
+
+  
+  select25.addEventListener("change", function () {
+    Optionp1 = this.options[select25.selectedIndex];
+  });
+  select26.addEventListener("change", function () {
+    Optionp2 = this.options[select26.selectedIndex];
+    
+  });
+
+  select27.addEventListener("change", function () {
+    Optionp3 = this.options[select27.selectedIndex];
+    
+    if (
+      (Optionp1.value == "no" &&
+        Optionp2.value == "no" &&
+        Optionp3.value == "no") ||
+      (Optionp1.value == "no" &&
+        Optionp2.value == "no" &&
+        Optionp3.value == "si") ||
+      (Optionp1.value == "no" &&
+        Optionp2.value == "si" &&
+        Optionp3.value == "si") ||
+      (Optionp1.value == "si" &&
+        Optionp2.value == "no" &&
+        Optionp3.value == "no") ||
+      (Optionp1.value == "si" &&
+        Optionp2.value == "si" &&
+        Optionp3.value == "no") ||
+      (Optionp1.value == "no" &&
+        Optionp2.value == "si" &&
+        Optionp3.value == "no") ||
+      (Optionp1.value == "si" &&
+        Optionp2.value == "no" &&
+        Optionp3.value == "si")
+    ) {
+      document.getElementById("Biologo_Microbiologo").style.display = "none";
+      if (
+        document.getElementById("Biologo_Microbiologo").style.display == "none"
+        
+      ) {
+        document.getElementById("Biologo_Pesquero").style.display =
+          "block";
+      }
+    } else if (
+      Optionp1.value == "si" &&
+      Optionp2.value == "si" &&
+      Optionp3.value == "si"
+    ) {
+      document.getElementById("enviar").style.display = "block";
+    }
+  });
 
 });
