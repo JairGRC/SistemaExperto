@@ -1,3 +1,4 @@
+<?php require_once("Preguntas.php");?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,6 +11,7 @@
     <script src="js/script.js"></script>
     <title>Bienvenido al Sistema</title>
 </head>
+
 <body id="cuerpo">
     <div id="caja" class="text-center">
         <br>
@@ -20,9 +22,12 @@
         <br>
         <a href="testvocacional.php"><button class="btn btn-outline-primary btn-lg" style="widht: 50px">Empezar Test</button></a>
     </div>
+
     <footer>
         Derechos Reservados - Grupo N° 08 <br>
         Sistema Experto Test Vocacional 2021
     </footer>
+
 </body>
 </html>
+
