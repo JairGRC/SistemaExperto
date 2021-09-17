@@ -15,31 +15,34 @@
 </head>
 
 <body class="cuerpo">
+    <header style="padding:15px">
+        <a href="index.php"><button class="btn btn-success btn-lg" style="widht: 50px">Volver al Inicio</button></a>
+    </header>
+
     <form name="prs" method="post" action="mostrar_Resultado.php" id="consulta" class=" row justify-content-center align-items-center" style="margin-top: 80px;">
 
         <div class="card " style="width: 70vw;">
             <div class="card-header text-center">
                 <h2>Test Vocacional</h2>
             </div>
-
             <div class="card-body ms-4">
 
                 <div id="Ingeniero_Agricola">
-                <?php 
-                    for($i=1;$i<4;$i++){
-                        $temp='pregunta'.$i;
-                        ?>
-                        <div class="select-p">
-                        <p><STRONG><?php call_user_func($GLOBALS["temp"],'$nombreCarrera');
-                        ?></STRONG></p>
-                        <select id="<?php echo "p$i"?>"   name="<?php echo "p$i"?>" class="form-select text-center " aria-label="Default select example" >
-                        <option selected>Opcion</option>
-                            <option value="si">Si</option>
-                            <option value="no">No</option>
-                        </select>
-                        </div>
-                        <?php
-                    }
+                    <?php 
+                        for($i=1;$i<4;$i++){
+                            $temp='pregunta'.$i;
+                            ?>
+                            <div class="select-p">
+                            <p><STRONG><?php call_user_func($GLOBALS["temp"],'$nombreCarrera');
+                            ?></STRONG></p>
+                            <select id="<?php echo "p$i"?>"   name="<?php echo "p$i"?>" class="form-select text-center " aria-label="Default select example" >
+                            <option selected>Opción</option>
+                                <option value="si">Si</option>
+                                <option value="no">No</option>
+                            </select>
+                            </div>
+                            <?php
+                        }
                     ?>
                 </div>
 
@@ -52,7 +55,7 @@
                             <p><STRONG><?php call_user_func($GLOBALS["temp"], '$nombreCarrera');
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
-                                <option selected>Opcion</option>
+                                <option selected>Opción</option>
                                 <option value="si">Si</option>
                                 <option value="no">No</option>
                             </select>
@@ -71,7 +74,7 @@
                             <p><STRONG><?php call_user_func($GLOBALS["temp"], '$nombreCarrera');
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
-                                <option selected>Opcion</option>
+                                <option selected>Opción</option>
                                 <option value="si">Si</option>
                                 <option value="no">No</option>
                             </select>
@@ -91,7 +94,7 @@
                             <p><STRONG><?php call_user_func($GLOBALS["temp"], '$nombreCarrera');
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
-                                <option selected>Opcion</option>
+                                <option selected>Opción</option>
                                 <option value="si">Si</option>
                                 <option value="no">No</option>
                             </select>
@@ -111,7 +114,7 @@
                             <p><STRONG><?php call_user_func($GLOBALS["temp"], '$nombreCarrera');
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
-                                <option selected>Opcion</option>
+                                <option selected>Opción</option>
                                 <option value="si">Si</option>
                                 <option value="no">No</option>
                             </select>
@@ -130,7 +133,7 @@
                             <p><STRONG><?php call_user_func($GLOBALS["temp"], '$nombreCarrera');
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
-                                <option selected>Opcion</option>
+                                <option selected>Opción</option>
                                 <option value="si">Si</option>
                                 <option value="no">No</option>
                             </select>
@@ -149,7 +152,7 @@
                             <p><STRONG><?php call_user_func($GLOBALS["temp"], '$nombreCarrera');
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
-                                <option selected>Opcion</option>
+                                <option selected>Opción</option>
                                 <option value="si">Si</option>
                                 <option value="no">No</option>
                             </select>
@@ -168,7 +171,7 @@
                             <p><STRONG><?php call_user_func($GLOBALS["temp"], '$nombreCarrera');
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
-                                <option selected>Opcion</option>
+                                <option selected>Opción</option>
                                 <option value="si">Si</option>
                                 <option value="no">No</option>
                             </select>
@@ -187,7 +190,7 @@
                             <p><STRONG><?php call_user_func($GLOBALS["temp"], '$nombreCarrera');
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
-                                <option selected>Opcion</option>
+                                <option selected>Opción</option>
                                 <option value="si">Si</option>
                                 <option value="no">No</option>
                             </select>
@@ -206,7 +209,7 @@
                             <p><STRONG><?php call_user_func($GLOBALS["temp"], '$nombreCarrera');
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
-                                <option selected>Opcion</option>
+                                <option selected>Opción</option>
                                 <option value="si">Si</option>
                                 <option value="no">No</option>
                             </select>
@@ -225,7 +228,7 @@
                             <p><STRONG><?php call_user_func($GLOBALS["temp"], '$nombreCarrera');
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
-                                <option selected>Opcion</option>
+                                <option selected>Opción</option>
                                 <option value="si">Si</option>
                                 <option value="no">No</option>
                             </select>
@@ -244,7 +247,7 @@
                             <p><STRONG><?php call_user_func($GLOBALS["temp"], '$nombreCarrera');
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
-                                <option selected>Opcion</option>
+                                <option selected>Opción</option>
                                 <option value="si">Si</option>
                                 <option value="no">No</option>
                             </select>
@@ -263,7 +266,7 @@
                             <p><STRONG><?php call_user_func($GLOBALS["temp"], '$nombreCarrera');
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
-                                <option selected>Opcion</option>
+                                <option selected>Opción</option>
                                 <option value="si">Si</option>
                                 <option value="no">No</option>
                             </select>
@@ -282,7 +285,7 @@
                             <p><STRONG><?php call_user_func($GLOBALS["temp"], '$nombreCarrera');
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
-                                <option selected>Opcion</option>
+                                <option selected>Opción</option>
                                 <option value="si">Si</option>
                                 <option value="no">No</option>
                             </select>
@@ -301,7 +304,7 @@
                             <p><STRONG><?php call_user_func($GLOBALS["temp"], '$nombreCarrera');
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
-                                <option selected>Opcion</option>
+                                <option selected>Opción</option>
                                 <option value="si">Si</option>
                                 <option value="no">No</option>
                             </select>
@@ -320,7 +323,7 @@
                             <p><STRONG><?php call_user_func($GLOBALS["temp"], '$nombreCarrera');
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
-                                <option selected>Opcion</option>
+                                <option selected>Opción</option>
                                 <option value="si">Si</option>
                                 <option value="no">No</option>
                             </select>
@@ -339,7 +342,7 @@
                             <p><STRONG><?php call_user_func($GLOBALS["temp"], '$nombreCarrera');
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
-                                <option selected>Opcion</option>
+                                <option selected>Opción</option>
                                 <option value="si">Si</option>
                                 <option value="no">No</option>
                             </select>
@@ -358,7 +361,7 @@
                             <p><STRONG><?php call_user_func($GLOBALS["temp"], '$nombreCarrera');
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
-                                <option selected>Opcion</option>
+                                <option selected>Opción</option>
                                 <option value="si">Si</option>
                                 <option value="no">No</option>
                             </select>
@@ -377,7 +380,7 @@
                             <p><STRONG><?php call_user_func($GLOBALS["temp"], '$nombreCarrera');
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
-                                <option selected>Opcion</option>
+                                <option selected>Opción</option>
                                 <option value="si">Si</option>
                                 <option value="no">No</option>
                             </select>
@@ -396,7 +399,7 @@
                             <p><STRONG><?php call_user_func($GLOBALS["temp"], '$nombreCarrera');
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
-                                <option selected>Opcion</option>
+                                <option selected>Opción</option>
                                 <option value="si">Si</option>
                                 <option value="no">No</option>
                             </select>
@@ -415,7 +418,7 @@
                             <p><STRONG><?php call_user_func($GLOBALS["temp"], '$nombreCarrera');
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
-                                <option selected>Opcion</option>
+                                <option selected>Opción</option>
                                 <option value="si">Si</option>
                                 <option value="no">No</option>
                             </select>
@@ -434,7 +437,7 @@
                             <p><STRONG><?php call_user_func($GLOBALS["temp"], '$nombreCarrera');
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
-                                <option selected>Opcion</option>
+                                <option selected>Opción</option>
                                 <option value="si">Si</option>
                                 <option value="no">No</option>
                             </select>
@@ -453,7 +456,7 @@
                             <p><STRONG><?php call_user_func($GLOBALS["temp"], '$nombreCarrera');
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
-                                <option selected>Opcion</option>
+                                <option selected>Opción</option>
                                 <option value="si">Si</option>
                                 <option value="no">No</option>
                             </select>
@@ -472,7 +475,7 @@
                             <p><STRONG><?php call_user_func($GLOBALS["temp"], '$nombreCarrera');
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
-                                <option selected>Opcion</option>
+                                <option selected>Opción</option>
                                 <option value="si">Si</option>
                                 <option value="no">No</option>
                             </select>
@@ -491,7 +494,7 @@
                             <p><STRONG><?php call_user_func($GLOBALS["temp"], '$nombreCarrera');
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
-                                <option selected>Opcion</option>
+                                <option selected>Opción</option>
                                 <option value="si">Si</option>
                                 <option value="no">No</option>
                             </select>
@@ -510,7 +513,7 @@
                             <p><STRONG><?php call_user_func($GLOBALS["temp"], '$nombreCarrera');
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
-                                <option selected>Opcion</option>
+                                <option selected>Opción</option>
                                 <option value="si">Si</option>
                                 <option value="no">No</option>
                             </select>
@@ -529,7 +532,7 @@
                             <p><STRONG><?php call_user_func($GLOBALS["temp"], '$nombreCarrera');
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
-                                <option selected>Opcion</option>
+                                <option selected>Opción</option>
                                 <option value="si">Si</option>
                                 <option value="no">No</option>
                             </select>
@@ -548,7 +551,7 @@
                             <p><STRONG><?php call_user_func($GLOBALS["temp"], '$nombreCarrera');
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
-                                <option selected>Opcion</option>
+                                <option selected>Opción</option>
                                 <option value="si">Si</option>
                                 <option value="no">No</option>
                             </select>
@@ -567,7 +570,7 @@
                             <p><STRONG><?php call_user_func($GLOBALS["temp"], '$nombreCarrera');
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
-                                <option selected>Opcion</option>
+                                <option selected>Opción</option>
                                 <option value="si">Si</option>
                                 <option value="no">No</option>
                             </select>
@@ -586,7 +589,7 @@
                             <p><STRONG><?php call_user_func($GLOBALS["temp"], '$nombreCarrera');
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
-                                <option selected>Opcion</option>
+                                <option selected>Opción</option>
                                 <option value="si">Si</option>
                                 <option value="no">No</option>
                             </select>
@@ -605,7 +608,7 @@
                             <p><STRONG><?php call_user_func($GLOBALS["temp"], '$nombreCarrera');
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
-                                <option selected>Opcion</option>
+                                <option selected>Opción</option>
                                 <option value="si">Si</option>
                                 <option value="no">No</option>
                             </select>
@@ -624,7 +627,7 @@
                             <p><STRONG><?php call_user_func($GLOBALS["temp"], '$nombreCarrera');
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
-                                <option selected>Opcion</option>
+                                <option selected>Opción</option>
                                 <option value="si">Si</option>
                                 <option value="no">No</option>
                             </select>
@@ -643,7 +646,7 @@
                             <p><STRONG><?php call_user_func($GLOBALS["temp"], '$nombreCarrera');
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
-                                <option selected>Opcion</option>
+                                <option selected>Opción</option>
                                 <option value="si">Si</option>
                                 <option value="no">No</option>
                             </select>
@@ -662,7 +665,7 @@
                             <p><STRONG><?php call_user_func($GLOBALS["temp"], '$nombreCarrera');
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
-                                <option selected>Opcion</option>
+                                <option selected>Opción</option>
                                 <option value="si">Si</option>
                                 <option value="no">No</option>
                             </select>
@@ -681,7 +684,7 @@
                             <p><STRONG><?php call_user_func($GLOBALS["temp"], '$nombreCarrera');
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
-                                <option selected>Opcion</option>
+                                <option selected>Opción</option>
                                 <option value="si">Si</option>
                                 <option value="no">No</option>
                             </select>

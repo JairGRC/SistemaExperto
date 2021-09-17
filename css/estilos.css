@@ -1,18 +1,18 @@
 
-    ::-webkit-scrollbar {
-        display: none;
-    }
+::-webkit-scrollbar {
+    display: none;
+}
 
 .select-p{
     display: grid;
     grid-template-columns: 60% 40%;
     align-content: center;
 }
+
 .form-select{
 width: 100px;
 height: 40px;
 margin-top: 7px;  
-
 
 }
 .select-p > p{
@@ -34,7 +34,7 @@ padding-top: 15px;
 }
 
 footer {
-    background-color: grey;
+    background-color: #4E4C4D;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -42,7 +42,7 @@ footer {
     color: white;
     padding: 10px;
     font-weight: bold;
-  }
+}
 
 .cuerpo {
     height: 100vh;
