@@ -20,7 +20,7 @@
                 <h2>Test Vocacional</h2>
             </div>
             <div class="card-body ms-4">
-<<<<<<< HEAD
+
                 <div id="Ingeniero_Agricola">
                     <div class="select-p">
                         <p><STRONG><?php pregunta1('$nombreCarrera'); ?></STRONG></p>
@@ -30,7 +30,7 @@
                             <option value="no">No</option>
                         </select>
                     </div>
-=======
+
                 
                 <div class="select-p">
                     <p><STRONG><?php pregunta1('$nombreCarrera'); ?></STRONG></p>
@@ -40,7 +40,7 @@
                         <option value="no">No</option>
                     </select>
                 </div>
->>>>>>> 54265282f1e4077733d6e8e8316b714bc524c496
+
 
                     <div class="select-p">
                         <p><STRONG><?php pregunta2('$nombreCarrera'); ?></STRONG></p>
