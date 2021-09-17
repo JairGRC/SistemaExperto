@@ -13,7 +13,13 @@
     <title>Bienvenido al Sistema</title>
 </head>
 
+
+    <div class="text-center" style="margin-top: 50px; background-color:#FFFF00">
+
+<body id="cuerpo">
+
 <body class="cuerpo">
+
     <div id="caja" class="text-center">
         <br>
         <h1>Bienvenido a Nuestro Sistema Experto</h1>
