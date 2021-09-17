@@ -4,9 +4,9 @@ test :- write( 'jhan gutierrez flores' ).
 
 %%%%% BASE_DE_CONOCIMIENTO
 
-%Declarando todas las carreras
+%%%% Declarando todas las carreras
 
-%CiENCIAS AGROPECUARIAS
+%CIENCIAS AGROPECUARIAS
 carrera(Ingeniero_Agricola).
 carrera(Ingeniero_Zooctenista).
 carrera(Ingeniero_Agronomo).
@@ -71,7 +71,7 @@ carrera(Ingeniero_Ambiental).
 carrera(sin_resultado).
 
 
-%Reglas para ir preguntando por los carreras
+%%%% Reglas para ir preguntando por los carreras
 
 preguntaIngeniero_Agricola(Ingeniero_Agricola):-
 
@@ -306,7 +306,7 @@ descripcion34(Ingeniero_Ambiental,'La carrera de Ingeniería Ambiental tiene com
 
 
 
-%Preguntadno
+%% Preguntando
 
 pregunta(X):-preguntando('',X).
 preguntando(Incognita,X):-write(Incognita),write(' '),write(X),write(' '),write(',').
