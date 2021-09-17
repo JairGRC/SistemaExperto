@@ -11,18 +11,28 @@
     <script src="js/script.js"></script>
     <title>Bienvenido al Sistema</title>
 </head>
-<body>
+
 
 
 
     <div class="text-center" style="margin-top: 50px; background-color:#FFFF00">
+
+<body id="cuerpo">
+    <div id="caja" class="text-center">
+        <br>
+
         <h1>Bienvenido a nuestro Sistema Experto</h1>
         <h2>Test Vocacional</h2>
+        <img src="images/imagen.jpg" alt="" style="width:800px">
         <h3>Te ayudaremos a elegir una carrera universitaria</h3>
         <br>
-        <a href="testvocacional.php"><button class="btn btn-primary">EmpezarTest</button></a>
+        <a href="testvocacional.php"><button class="btn btn-outline-primary btn-lg" style="widht: 50px">Empezar Test</button></a>
     </div>
-    
+
+    <footer>
+        Derechos Reservados - Grupo N° 08 <br>
+        Sistema Experto Test Vocacional 2021
+    </footer>
 
 </body>
 </html>
