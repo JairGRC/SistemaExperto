@@ -44,6 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
     ) {
         document.getElementById("enviar").style.display = "block";
     }
+    
   });
 });
 
