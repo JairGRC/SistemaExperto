@@ -235,4 +235,56 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
 
+  
+  select13.addEventListener("change", function () {
+    Optionp1 = this.options[select10.selectedIndex];
+  });
+  select14.addEventListener("change", function () {
+    Optionp2 = this.options[select11.selectedIndex];
+    console.log(Optionp2);
+  });
+
+  select15.addEventListener("change", function () {
+    Optionp3 = this.options[select12.selectedIndex];
+    if (
+      (Optionp1.value == "no" &&
+        Optionp2.value == "no" &&
+        Optionp3.value == "no") ||
+      (Optionp1.value == "no" &&
+        Optionp2.value == "no" &&
+        Optionp3.value == "si") ||
+      (Optionp1.value == "no" &&
+        Optionp2.value == "si" &&
+        Optionp3.value == "si") ||
+      (Optionp1.value == "si" &&
+        Optionp2.value == "no" &&
+        Optionp3.value == "no") ||
+      (Optionp1.value == "si" &&
+        Optionp2.value == "si" &&
+        Optionp3.value == "no") ||
+      (Optionp1.value == "no" &&
+        Optionp2.value == "si" &&
+        Optionp3.value == "no") ||
+      (Optionp1.value == "si" &&
+        Optionp2.value == "no" &&
+        Optionp3.value == "si")
+    ) {
+      document.getElementById("Ingeniero_Estadistico").style.display = "none";
+      if (
+        document.getElementById("Ingeniero_Estadistico").style.display == "none"
+        
+      ) {
+        document.getElementById("Licenciado_en_Fisica").style.display =
+          "block";
+      }
+    } else if (
+      Optionp1.value == "si" &&
+      Optionp2.value == "si" &&
+      Optionp3.value == "si"
+    ) {
+      document.getElementById("enviar").style.display = "block";
+    }
+  });
+
+
 });
