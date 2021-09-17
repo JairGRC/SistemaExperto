@@ -37,7 +37,7 @@
                             ?></STRONG></p>
                             <select id="<?php echo "p$i"?>"   name="<?php echo "p$i"?>" class="form-select text-center " aria-label="Default select example" >
                             <option selected>Opción</option>
-                                <option value="si">Si</option>
+                                <option value="si">Sí</option>
                                 <option value="no">No</option>
                             </select>
                             </div>
@@ -56,7 +56,7 @@
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
                                 <option selected>Opción</option>
-                                <option value="si">Si</option>
+                                <option value="si">Sí</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
@@ -75,7 +75,7 @@
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
                                 <option selected>Opción</option>
-                                <option value="si">Si</option>
+                                <option value="si">Sí</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
@@ -95,7 +95,7 @@
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
                                 <option selected>Opción</option>
-                                <option value="si">Si</option>
+                                <option value="si">Sí</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
@@ -115,7 +115,7 @@
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
                                 <option selected>Opción</option>
-                                <option value="si">Si</option>
+                                <option value="si">Sí</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
@@ -134,7 +134,7 @@
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
                                 <option selected>Opción</option>
-                                <option value="si">Si</option>
+                                <option value="si">Sí</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
@@ -153,7 +153,7 @@
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
                                 <option selected>Opción</option>
-                                <option value="si">Si</option>
+                                <option value="si">Sí</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
@@ -172,7 +172,7 @@
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
                                 <option selected>Opción</option>
-                                <option value="si">Si</option>
+                                <option value="si">Sí</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
@@ -191,7 +191,7 @@
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
                                 <option selected>Opción</option>
-                                <option value="si">Si</option>
+                                <option value="si">Sí</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
@@ -210,7 +210,7 @@
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
                                 <option selected>Opción</option>
-                                <option value="si">Si</option>
+                                <option value="si">Sí</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
@@ -229,7 +229,7 @@
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
                                 <option selected>Opción</option>
-                                <option value="si">Si</option>
+                                <option value="si">Sí</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
@@ -248,7 +248,7 @@
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
                                 <option selected>Opción</option>
-                                <option value="si">Si</option>
+                                <option value="si">Sí</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
@@ -267,7 +267,7 @@
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
                                 <option selected>Opción</option>
-                                <option value="si">Si</option>
+                                <option value="si">Sí</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
@@ -286,7 +286,7 @@
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
                                 <option selected>Opción</option>
-                                <option value="si">Si</option>
+                                <option value="si">Sí</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
@@ -305,7 +305,7 @@
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
                                 <option selected>Opción</option>
-                                <option value="si">Si</option>
+                                <option value="si">Sí</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
@@ -324,7 +324,7 @@
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
                                 <option selected>Opción</option>
-                                <option value="si">Si</option>
+                                <option value="si">Sí</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
@@ -343,7 +343,7 @@
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
                                 <option selected>Opción</option>
-                                <option value="si">Si</option>
+                                <option value="si">Sí</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
@@ -362,7 +362,7 @@
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
                                 <option selected>Opción</option>
-                                <option value="si">Si</option>
+                                <option value="si">Sí</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
@@ -381,7 +381,7 @@
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
                                 <option selected>Opción</option>
-                                <option value="si">Si</option>
+                                <option value="si">Sí</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
@@ -400,7 +400,7 @@
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
                                 <option selected>Opción</option>
-                                <option value="si">Si</option>
+                                <option value="si">Sí</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
@@ -419,7 +419,7 @@
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
                                 <option selected>Opción</option>
-                                <option value="si">Si</option>
+                                <option value="si">Sí</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
@@ -438,7 +438,7 @@
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
                                 <option selected>Opción</option>
-                                <option value="si">Si</option>
+                                <option value="si">Sí</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
@@ -457,7 +457,7 @@
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
                                 <option selected>Opción</option>
-                                <option value="si">Si</option>
+                                <option value="si">Sí</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
@@ -476,7 +476,7 @@
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
                                 <option selected>Opción</option>
-                                <option value="si">Si</option>
+                                <option value="si">Sí</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
@@ -495,7 +495,7 @@
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
                                 <option selected>Opción</option>
-                                <option value="si">Si</option>
+                                <option value="si">Sí</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
@@ -514,7 +514,7 @@
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
                                 <option selected>Opción</option>
-                                <option value="si">Si</option>
+                                <option value="si">Sí</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
@@ -533,7 +533,7 @@
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
                                 <option selected>Opción</option>
-                                <option value="si">Si</option>
+                                <option value="si">Sí</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
@@ -552,7 +552,7 @@
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
                                 <option selected>Opción</option>
-                                <option value="si">Si</option>
+                                <option value="si">Sí</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
@@ -571,7 +571,7 @@
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
                                 <option selected>Opción</option>
-                                <option value="si">Si</option>
+                                <option value="si">Sí</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
@@ -580,7 +580,7 @@
                     ?>
                 </div>
 
-                <div id="Ingeniero_de_Sistemas" style="display: none;">
+                <div id="Ingeniero_de_Sístemas" style="display: none;">
                     <?php
                     for ($i = 89; $i < 92; $i++) {
                         $temp = 'pregunta' . $i;
@@ -590,7 +590,7 @@
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
                                 <option selected>Opción</option>
-                                <option value="si">Si</option>
+                                <option value="si">Sí</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
@@ -609,7 +609,7 @@
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
                                 <option selected>Opción</option>
-                                <option value="si">Si</option>
+                                <option value="si">Sí</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
@@ -628,7 +628,7 @@
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
                                 <option selected>Opción</option>
-                                <option value="si">Si</option>
+                                <option value="si">Sí</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
@@ -647,7 +647,7 @@
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
                                 <option selected>Opción</option>
-                                <option value="si">Si</option>
+                                <option value="si">Sí</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
@@ -666,7 +666,7 @@
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
                                 <option selected>Opción</option>
-                                <option value="si">Si</option>
+                                <option value="si">Sí</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
@@ -685,7 +685,7 @@
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
                                 <option selected>Opción</option>
-                                <option value="si">Si</option>
+                                <option value="si">Sí</option>
                                 <option value="no">No</option>
                             </select>
                         </div>
