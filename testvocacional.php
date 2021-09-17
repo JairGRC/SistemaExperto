@@ -1,6 +1,6 @@
 <?php include 'Preguntas.php' ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -17,12 +17,12 @@
 <body class="cuerpo">
     <form name="prs" method="post" action="mostrar_Resultado.php" id="consulta" class=" row justify-content-center align-items-center" style="margin-top: 80px;">
 
-        <div class="card " style="width: 70vw;">
-            <div class="card-header text-center">
+        <div class="card border-primary" style="width: 70vw;">
+            <div class="card-header text-center ">
                 <h2>Test Vocacional</h2>
             </div>
 
-            <div class="card-body ms-4">
+            <div class="card-body ms-4 ">
 
                 <div id="Ingeniero_Agricola">
                 <?php 
