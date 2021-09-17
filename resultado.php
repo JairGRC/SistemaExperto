@@ -28,6 +28,7 @@ $pr21 = $_POST['p21'];$pr22 = $_POST['p22']; */
         $vardescripcion = "Carrera no encontrada";
     }
 } else {
+    
 }
 
 function descripcion($nombreCarrera)
