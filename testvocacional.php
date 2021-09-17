@@ -13,72 +13,73 @@
 </head>
 
 <body>
-    <form name="prs" method="post" action="mostrar_Resultado.php" id="consulta" class=" row justify-content-center align-items-center" style="margin-top: 80px;">
+    
+<form name="prs" method="post" action="mostrar_Resultado.php" id="consulta" class=" row justify-content-center align-items-center" style="margin-top: 80px;">
         <div class="card " style="width: 70vw;">
 
             <div class="card-header text-center">
                 <h2>Test Vocacional</h2>
             </div>
             <div class="card-body ms-4">
-
                 <div id="Ingeniero_Agricola">
-                    <div class="select-p">
-                        <p><STRONG><?php pregunta1('$nombreCarrera'); ?></STRONG></p>
-                        <select id="p1" name="p1" class="form-select text-center " aria-label="Default select example" id="p1">
+                    <?php 
+                    for($i=1;$i<4;$i++){
+                        $temp='pregunta'.$i;
+                        ?>
+                        <div class="select-p">
+                        <p><STRONG><?php call_user_func($GLOBALS["temp"],'$nombreCarrera');
+                        ?></STRONG></p>
+                        <select id="<?php echo "p$i"?>"   name="<?php echo "p$i"?>" class="form-select text-center " aria-label="Default select example" >
                             <option selected>Opcion</option>
                             <option value="si">Si</option>
                             <option value="no">No</option>
                         </select>
-                    </div>
-                    <div class="select-p">
-                        <p><STRONG><?php pregunta2('$nombreCarrera'); ?></STRONG></p>
-                        <select name="p2" class="form-select text-center " aria-label="Default select example" id="p2">
-                            <option selected>Opcion</option>
-                            <option value="si">Si</option>
-                            <option value="no">No</option>
-                        </select>
-                    </div>
-                    
-                    <div class="select-p">
-                        <p><STRONG><?php pregunta3('$nombreCarrera'); ?></STRONG></p>
-                        <select name="p3" class="form-select text-center " aria-label="Default select example" id="p3">
-                            <option selected>Opcion</option>
-                            <option value="si">Si</option>
-                            <option value="no">No</option>
-                        </select>
-                    </div>
+                        </div>
+                        <?php
+                    }
+                    ?>
                 </div>
 
+        
                 <div id="Ingeniero_Zooctenista" style="display: none;">
-
-
-                    <div class="select-p">
-                        <p><STRONG><?php pregunta4('$nombreCarrera'); ?></STRONG></p>
-                        <select name="p4" class="form-select text-center " aria-label="Default select example">
+                <?php 
+                    for($i=4;$i<7;$i++){
+                        $temp='pregunta'.$i;
+                        ?>
+                        <div class="select-p">
+                        <p><STRONG><?php call_user_func($GLOBALS["temp"],'$nombreCarrera');
+                        ?></STRONG></p>
+                        <select id="<?php echo "p$i"?>"   name="<?php echo "p$i"?>" class="form-select text-center " aria-label="Default select example" >
                             <option selected>Opcion</option>
                             <option value="si">Si</option>
                             <option value="no">No</option>
                         </select>
-                    </div>
-
-                    <div class="select-p">
-                        <p><STRONG><?php pregunta5('$nombreCarrera'); ?></STRONG></p>
-                        <select name="p5" class="form-select text-center " aria-label="Default select example">
-                            <option selected>Opcion</option>
-                            <option value="si">Si</option>
-                            <option value="no">No</option>
-                        </select>
-                    </div>
-
-                    <div class="select-p">
-                        <p><STRONG><?php pregunta6('$nombreCarrera'); ?></STRONG></p>
-                        <select name="p6" class="form-select text-center " aria-label="Default select example">
-                            <option selected>Opcion</option>
-                            <option value="si">Si</option>
-                            <option value="no">No</option>
-                        </select>
-                    </div>
+                        </div>
+                        <?php
+                    }
+                    ?>
                 </div>
+
+                <div id="Ingeniero_Agronomo" style="display: none;">
+                <?php 
+                    for($i=7;$i<10;$i++){
+                        $temp='pregunta'.$i;
+                        ?>
+                        <div class="select-p">
+                        <p><STRONG><?php call_user_func($GLOBALS["temp"],'$nombreCarrera');
+                        ?></STRONG></p>
+                        <select id="<?php echo "p$i"?>"   name="<?php echo "p$i"?>" class="form-select text-center " aria-label="Default select example" >
+                            <option selected>Opcion</option>
+                            <option value="si">Si</option>
+                            <option value="no">No</option>
+                        </select>
+                        </div>
+                        <?php
+                    }
+                    ?>
+
+                </div>
+
                 <br>
 
                 <br>
@@ -87,7 +88,6 @@
                 <br><br>
             </div>
     </form>
-
 </body>
 
 </html>
