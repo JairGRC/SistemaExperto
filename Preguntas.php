@@ -398,17 +398,6 @@ function pregunta33($nombreCarrera)
     echo $p33;
 }
 
-function pregunta34($nombreCarrera)
-{
-    $nombreCarrera = "Contador_Publico";
-    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaContador_Publico($nombreCarrera). -t 'halt'"`;
-    exec($command);
-    //echo $command;
-    $data = $command;
-    list($p34, $p35, $p36) = explode(",", $data);
-    //var_dump($output);
-    echo $p34;
-}
 
 function pregunta34($nombreCarrera)
 {
