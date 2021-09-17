@@ -13,7 +13,6 @@
     <title>Test Vocacional</title>
 </head>
 
-
 <body class="cuerpo">
     <form name="prs" method="post" action="mostrar_Resultado.php" id="consulta" class=" row justify-content-center align-items-center" style="margin-top: 80px;">
         <div class="card " style="width: 70vw;">

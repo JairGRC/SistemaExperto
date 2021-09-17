@@ -22,6 +22,7 @@
         <div class="card-body">
             <h5 class="card-title"><?php echo $var=str_replace("_"," ",$var) ?></h5>
             <p class="card-text"><?php echo $vardescripcion ?></p>
+            <br>
             <a href="testvocacional.php" class="btn btn-primary">Volver a Intentar</a>
         </div>
     </div>
