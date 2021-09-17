@@ -9,10 +9,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilos.css">
     <script src="js/script.js"></script>
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
     <title>Test Vocacional</title>
 </head>
 
-<body>
+<body class="cuerpo">
     <form name="prs" method="post" action="mostrar_Resultado.php" id="consulta" class=" row justify-content-center align-items-center" style="margin-top: 80px;">
         <div class="card " style="width: 70vw;">
 
@@ -24,7 +25,7 @@
                 <div id="Ingeniero_Agricola">
                     <div class="select-p">
                         <p><STRONG><?php pregunta1('$nombreCarrera'); ?></STRONG></p>
-                        <select id="p1" name="p1" class="form-select text-center " aria-label="Default select example" id="p1">
+                        <select name="p1" class="form-select text-center " aria-label="Default select example" id="p1">
                             <option selected>Opcion</option>
                             <option value="si">Si</option>
                             <option value="no">No</option>
