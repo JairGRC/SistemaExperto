@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+  
   var select1 = document.getElementById("p1");
   var select2 = document.getElementById("p2");
   var select3 = document.getElementById("p3");
@@ -95,7 +96,6 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("Ingeniero_Zooctenista").style.display == "none"
         
       ) {
-        console.log("Entre");
         document.getElementById("Ingeniero_Agronomo").style.display =
           "block";
       }
