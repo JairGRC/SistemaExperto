@@ -14,7 +14,7 @@ if (isset($_POST['submit'])) {
 $pr11 = $_POST['p11'];$pr12 = $_POST['p12'];$pr13 = $_POST['p13'];$pr14 = $_POST['p14'];$pr15 = $_POST['p15'];
 $pr16 = $_POST['p16'];$pr17 = $_POST['p17'];$pr18 = $_POST['p18'];$pr19 = $_POST['p19'];$pr20 = $_POST['p20'];
 $pr21 = $_POST['p21'];$pr22 = $_POST['p22'];$pr23 = $_POST['p23'];$pr24 = $_POST['p24'];$pr25 = $_POST['p25'];
-$pr26 = $_POST['p26'];$pr27 = $_POST['p27'];$pr28 = $_POST['p28'];$pr29 = $_POST['p30'];$pr22 = $_POST['p31'];
+$pr26 = $_POST['p26'];$pr27 = $_POST['p27'];$pr28 = $_POST['p28'];$pr29 = $_POST['p30'];
     if ($pr1 == "si" && $pr2 == "si" && $pr3 == "si") {
         $var_1 = "Usted Tiene vocacion para: ";
         $nombreCarrera = "Ingeniero_Agricola";
