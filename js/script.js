@@ -33,7 +33,10 @@ document.addEventListener("DOMContentLoaded", function () {
         Optionp3.value == "no") ||
       (Optionp1.value == "no" &&
         Optionp2.value == "si" &&
-        Optionp3.value == "no")
+        Optionp3.value == "no")||
+      (Optionp1.value == "si" &&
+        Optionp2.value == "no" &&
+        Optionp3.value == "si")
     ) {
       document.getElementById("Ingeniero_Agricola").style.display = "none";
       document.getElementById("Ingeniero_Zooctenista").style.display = "block";
@@ -44,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
     ) {
         document.getElementById("enviar").style.display = "block";
     }
-    
+
   });
 });
 
