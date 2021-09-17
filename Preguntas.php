@@ -1,6 +1,5 @@
 <?php
 
-
 function pregunta1($nombreCarrera)
 {
     $nombreCarrera = "Ingeniero_Agricola";
@@ -254,5 +253,1023 @@ function pregunta21($nombreCarrera)
     echo $p21;
 }
 
+
+function pregunta22($nombreCarrera)
+{
+    $nombreCarrera = "Biologo";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaBiologo($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p22, $p23, $p24) = explode(",", $data);
+    //var_dump($output);
+    echo $p22;
+}
+
+function pregunta23($nombreCarrera)
+{
+    $nombreCarrera = "Biologo";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaBiologo($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p22, $p23, $p24) = explode(",", $data);
+    //var_dump($output);
+    echo $p23;
+}
+
+function pregunta24($nombreCarrera)
+{
+    $nombreCarrera = "Biologo";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaBiologo($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p22, $p23, $p24) = explode(",", $data);
+    //var_dump($output);
+    echo $p24;
+}
+
+function pregunta25($nombreCarrera)
+{
+    $nombreCarrera = "Biologo_Microbiologo";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaBiologo_Microbiologo($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p25, $p26, $p27) = explode(",", $data);
+    //var_dump($output);
+    echo $p25;
+}
+
+function pregunta26($nombreCarrera)
+{
+    $nombreCarrera = "Biologo_Microbiologo";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaBiologo_Microbiologo($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p25, $p26, $p27) = explode(",", $data);
+    //var_dump($output);
+    echo $p26;
+}
+
+function pregunta27($nombreCarrera)
+{
+    $nombreCarrera = "Biologo_Microbiologo";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaBiologo_Microbiologo($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p25, $p26, $p27) = explode(",", $data);
+    //var_dump($output);
+    echo $p27;
+}
+
+function pregunta28($nombreCarrera)
+{
+    $nombreCarrera = "Biologo_Pesquero";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaBiologo_Pesquero($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p28, $p29, $p30) = explode(",", $data);
+    //var_dump($output);
+    echo $p28;
+}
+
+function pregunta29($nombreCarrera)
+{
+    $nombreCarrera = "Biologo_Pesquero";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaBiologo_Pesquero($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p28, $p29, $p30) = explode(",", $data);
+    //var_dump($output);
+    echo $p29;
+}
+
+function pregunta30($nombreCarrera)
+{
+    $nombreCarrera = "Biologo_Pesquero";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaBiologo_Pesquero($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p28, $p29, $p30) = explode(",", $data);
+    //var_dump($output);
+    echo $p30;
+}
+
+function pregunta31($nombreCarrera)
+{
+    $nombreCarrera = "Licenciado_en_Administracion";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaLicenciado_en_Administracion($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p31, $p32, $p33) = explode(",", $data);
+    //var_dump($output);
+    echo $p31;
+}
+
+function pregunta32($nombreCarrera)
+{
+    $nombreCarrera = "Licenciado_en_Administracion";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaLicenciado_en_Administracion($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p31, $p32, $p33) = explode(",", $data);
+    //var_dump($output);
+    echo $p32;
+}
+
+function pregunta33($nombreCarrera)
+{
+    $nombreCarrera = "Licenciado_en_Administracion";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaLicenciado_en_Administracion($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p31, $p32, $p33) = explode(",", $data);
+    //var_dump($output);
+    echo $p33;
+}
+
+
+function pregunta34($nombreCarrera)
+{
+    $nombreCarrera = "Contador_Publico";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaContador_Publico($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p34, $p35, $p36) = explode(",", $data);
+    //var_dump($output);
+    echo $p34;
+}
+
+function pregunta35($nombreCarrera)
+{
+    $nombreCarrera = "Contador_Publico";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaContador_Publico($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p34, $p35, $p36) = explode(",", $data);
+    //var_dump($output);
+    echo $p35;
+}
+
+function pregunta36($nombreCarrera)
+{
+    $nombreCarrera = "Contador_Publico";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaContador_Publico($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p34, $p35, $p36) = explode(",", $data);
+    //var_dump($output);
+    echo $p36;
+}
+
+function pregunta37($nombreCarrera)
+{
+    $nombreCarrera = "Economista";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaEconomista($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p37, $p38, $p39) = explode(",", $data);
+    //var_dump($output);
+    echo $p37;
+}
+
+function pregunta38($nombreCarrera)
+{
+    $nombreCarrera = "Economista";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaEconomista($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p37, $p38, $p39) = explode(",", $data);
+    //var_dump($output);
+    echo $p38;
+}
+function pregunta39($nombreCarrera)
+{
+    $nombreCarrera = "Economista";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaEconomista($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p37, $p38, $p39) = explode(",", $data);
+    //var_dump($output);
+    echo $p39;
+}
+
+function pregunta40($nombreCarrera)
+{
+    $nombreCarrera = "inicial";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntainicial($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p40, $p41, $p42) = explode(",", $data);
+    //var_dump($output);
+    echo $p40;
+}
+
+function pregunta41($nombreCarrera)
+{
+    $nombreCarrera = "inicial";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntainicial($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p40, $p41, $p42) = explode(",", $data);
+    //var_dump($output);
+    echo $p41;
+}
+
+function pregunta42($nombreCarrera)
+{
+    $nombreCarrera = "inicial";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntainicial($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p40, $p41, $p42) = explode(",", $data);
+    //var_dump($output);
+    echo $p42;
+}
+
+function pregunta43($nombreCarrera)
+{
+    $nombreCarrera = "primaria";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaprimaria($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p43, $p44, $p45) = explode(",", $data);
+    //var_dump($output);
+    echo $p43;
+}
+
+function pregunta44($nombreCarrera)
+{
+    $nombreCarrera = "primaria";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaprimaria($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p43, $p44, $p45) = explode(",", $data);
+    //var_dump($output);
+    echo $p44;
+}
+
+function pregunta45($nombreCarrera)
+{
+    $nombreCarrera = "primaria";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaprimaria($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p43, $p44, $p45) = explode(",", $data);
+    //var_dump($output);
+    echo $p45;
+}
+
+function pregunta46($nombreCarrera)
+{
+    $nombreCarrera = "secundaria";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntasecundaria($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p46, $p47, $p48) = explode(",", $data);
+    //var_dump($output);
+    echo $p46;
+}
+
+function pregunta47($nombreCarrera)
+{
+    $nombreCarrera = "secundaria";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntasecundaria($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p46, $p47, $p48) = explode(",", $data);
+    //var_dump($output);
+    echo $p47;
+}
+function pregunta48($nombreCarrera)
+{
+    $nombreCarrera = "secundaria";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntasecundaria($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p46, $p47, $p48) = explode(",", $data);
+    //var_dump($output);
+    echo $p48;
+}
+
+function pregunta49($nombreCarrera)
+{
+    $nombreCarrera = "ccomunicacion";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaccomunicacion($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p49, $p50, $p51) = explode(",", $data);
+    //var_dump($output);
+    echo $p49;
+}
+
+function pregunta50($nombreCarrera)
+{
+    $nombreCarrera = "ccomunicacion";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaccomunicacion($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p49, $p50, $p51) = explode(",", $data);
+    //var_dump($output);
+    echo $p50;
+}
+
+function pregunta51($nombreCarrera)
+{
+    $nombreCarrera = "ccomunicacion";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaccomunicacion($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p49, $p50, $p51) = explode(",", $data);
+    //var_dump($output);
+    echo $p51;
+}
+
+function pregunta52($nombreCarrera)
+{
+    $nombreCarrera = "Medico_Cirujano";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaMedico_Cirujano($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p52, $p53, $p54) = explode(",", $data);
+    //var_dump($output);
+    echo $p52;
+}
+
+function pregunta53($nombreCarrera)
+{
+    $nombreCarrera = "Medico_Cirujano";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaMedico_Cirujano($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p52, $p53, $p54) = explode(",", $data);
+    //var_dump($output);
+    echo $p53;
+}
+
+function pregunta54($nombreCarrera)
+{
+    $nombreCarrera = "Medico_Cirujano";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaMedico_Cirujano($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p52, $p53, $p54) = explode(",", $data);
+    //var_dump($output);
+    echo $p54;
+}
+
+function pregunta55($nombreCarrera)
+{
+    $nombreCarrera = "Cirujano_Dentista";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaCirujano_Dentista($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p55, $p56, $p57) = explode(",", $data);
+    //var_dump($output);
+    echo $p55;
+}
+
+function pregunta56($nombreCarrera)
+{
+    $nombreCarrera = "Cirujano_Dentista";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaCirujano_Dentista($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p55, $p56, $p57) = explode(",", $data);
+    //var_dump($output);
+    echo $p56;
+}
+
+function pregunta57($nombreCarrera)
+{
+    $nombreCarrera = "Cirujano_Dentista";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaCirujano_Dentista($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p55, $p56, $p57) = explode(",", $data);
+    //var_dump($output);
+    echo $p57;
+}
+
+function pregunta58($nombreCarrera)
+{
+    $nombreCarrera = "Antropologo_Social";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaAntropologo_Social($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p58, $p59, $p60) = explode(",", $data);
+    //var_dump($output);
+    echo $p58;
+}
+
+function pregunta59($nombreCarrera)
+{
+    $nombreCarrera = "Antropologo_Social";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaAntropologo_Social($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p58, $p59, $p60) = explode(",", $data);
+    //var_dump($output);
+    echo $p59;
+}
+
+function pregunta60($nombreCarrera)
+{
+    $nombreCarrera = "Antropologo_Social";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaAntropologo_Social($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p58, $p59, $p60) = explode(",", $data);
+    //var_dump($output);
+    echo $p60;
+}
+
+function pregunta61($nombreCarrera)
+{
+    $nombreCarrera = "Trabajador_Social";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaTrabajador_Social($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p61, $p62, $p63) = explode(",", $data);
+    //var_dump($output);
+    echo $p61;
+}
+
+function pregunta62($nombreCarrera)
+{
+    $nombreCarrera = "Trabajador_Social";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaTrabajador_Social($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p61, $p62, $p63) = explode(",", $data);
+    //var_dump($output);
+    echo $p62;
+}
+
+function pregunta63($nombreCarrera)
+{
+    $nombreCarrera = "Trabajador_Social";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaTrabajador_Social($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p61, $p62, $p63) = explode(",", $data);
+    //var_dump($output);
+    echo $p63;
+}
+
+function pregunta64($nombreCarrera)
+{
+    $nombreCarrera = "Licenciado_En_Turismo";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaLicenciado_En_Turismo($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p64, $p65, $p66) = explode(",", $data);
+    //var_dump($output);
+    echo $p64;
+}
+
+function pregunta65($nombreCarrera)
+{
+    $nombreCarrera = "Licenciado_En_Turismo";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaLicenciado_En_Turismo($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p64, $p65, $p66) = explode(",", $data);
+    //var_dump($output);
+    echo $p65;
+}
+
+function pregunta66($nombreCarrera)
+{
+    $nombreCarrera = "Licenciado_En_Turismo";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaLicenciado_En_Turismo($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p64, $p65, $p66) = explode(",", $data);
+    //var_dump($output);
+    echo $p66;
+}
+
+function pregunta67($nombreCarrera)
+{
+    $nombreCarrera = "Licenciado_En_Historia";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaLicenciado_En_Historia($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p67, $p68, $p69) = explode(",", $data);
+    //var_dump($output);
+    echo $p67;
+}
+
+function pregunta68($nombreCarrera)
+{
+    $nombreCarrera = "Licenciado_En_Historia";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaLicenciado_En_Historia($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p67, $p68, $p69) = explode(",", $data);
+    //var_dump($output);
+    echo $p68;
+}
+
+function pregunta69($nombreCarrera)
+{
+    $nombreCarrera = "Licenciado_En_Historia";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaLicenciado_En_Historia($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p67, $p68, $p69) = explode(",", $data);
+    //var_dump($output);
+    echo $p69;
+}
+
+function pregunta70($nombreCarrera)
+{
+    $nombreCarrera = "Abogado";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaAbogado($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p70, $p71, $p72) = explode(",", $data);
+    //var_dump($output);
+    echo $p70;
+}
+
+function pregunta71($nombreCarrera)
+{
+    $nombreCarrera = "Abogado";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaAbogado($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p70, $p71, $p72) = explode(",", $data);
+    //var_dump($output);
+    echo $p71;
+}
+
+function pregunta72($nombreCarrera)
+{
+    $nombreCarrera = "Abogado";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaAbogado($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p70, $p71, $p72) = explode(",", $data);
+    //var_dump($output);
+    echo $p72;
+}
+
+function pregunta73($nombreCarrera)
+{
+    $nombreCarrera = "Enfermero";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaEnfermero($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p73, $p74, $p75) = explode(",", $data);
+    //var_dump($output);
+    echo $p73;
+}
+
+function pregunta74($nombreCarrera)
+{
+    $nombreCarrera = "Enfermero";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaEnfermero($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p73, $p74, $p75) = explode(",", $data);
+    //var_dump($output);
+    echo $p74;
+}
+
+function pregunta75($nombreCarrera)
+{
+    $nombreCarrera = "Enfermero";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaEnfermero($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p73, $p74, $p75) = explode(",", $data);
+    //var_dump($output);
+    echo $p75;
+}
+
+function pregunta76($nombreCarrera)
+{
+    $nombreCarrera = "Quimico_Farmaceutico";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaQuimico_Farmaceutico($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p76, $p77, $p78) = explode(",", $data);
+    //var_dump($output);
+    echo $p76;
+}
+
+function pregunta77($nombreCarrera)
+{
+    $nombreCarrera = "Quimico_Farmaceutico";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaQuimico_Farmaceutico($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p76, $p77, $p78) = explode(",", $data);
+    //var_dump($output);
+    echo $p77;
+}
+
+function pregunta78($nombreCarrera)
+{
+    $nombreCarrera = "Quimico_Farmaceutico";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaQuimico_Farmaceutico($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p76, $p77, $p78) = explode(",", $data);
+    //var_dump($output);
+    echo $p78;
+}
+
+function pregunta79($nombreCarrera)
+{
+    $nombreCarrera = "Ingeniero_Industrial";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaIngeniero_Industrial($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p79, $p80, $p81, $p82) = explode(",", $data);
+    //var_dump($output);
+    echo $p79;
+}
+
+function pregunta80($nombreCarrera)
+{
+    $nombreCarrera = "Ingeniero_Industrial";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaIngeniero_Industrial($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p79, $p80, $p81, $p82) = explode(",", $data);
+    //var_dump($output);
+    echo $p80;
+}
+
+function pregunta81($nombreCarrera)
+{
+    $nombreCarrera = "Ingeniero_Industrial";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaIngeniero_Industrial($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p79, $p80, $p81, $p82) = explode(",", $data);
+    //var_dump($output);
+    echo $p81;
+}
+function pregunta82($nombreCarrera)
+{
+    $nombreCarrera = "Ingeniero_Industrial";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaIngeniero_Industrial($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p79, $p80, $p81, $p82) = explode(",", $data);
+    //var_dump($output);
+    echo $p82;
+}
+
+function pregunta83($nombreCarrera)
+{
+    $nombreCarrera = "Ingeniero_Mecanico";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaIngeniero_Mecanico($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p83, $p84, $p85) = explode(",", $data);
+    //var_dump($output);
+    echo $p83;
+}
+
+function pregunta84($nombreCarrera)
+{
+    $nombreCarrera = "Ingeniero_Mecanico";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaIngeniero_Mecanico($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p83, $p84, $p85) = explode(",", $data);
+    //var_dump($output);
+    echo $p84;
+}
+
+function pregunta85($nombreCarrera)
+{
+    $nombreCarrera = "Ingeniero_Mecanico";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaIngeniero_Mecanico($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p83, $p84, $p85) = explode(",", $data);
+    //var_dump($output);
+    echo $p85;
+}
+
+function pregunta86($nombreCarrera)
+{
+    $nombreCarrera = "Ingeniero_Metalurgico";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaIngeniero_Metalurgico($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p86, $p87, $p88) = explode(",", $data);
+    //var_dump($output);
+    echo $p86;
+}
+
+function pregunta87($nombreCarrera)
+{
+    $nombreCarrera = "Ingeniero_Metalurgico";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaIngeniero_Metalurgico($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p86, $p87, $p88) = explode(",", $data);
+    //var_dump($output);
+    echo $p87;
+}
+
+function pregunta88($nombreCarrera)
+{
+    $nombreCarrera = "Ingeniero_Metalurgico";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaIngeniero_Metalurgico($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p86, $p87, $p88) = explode(",", $data);
+    //var_dump($output);
+    echo $p88;
+}
+
+function pregunta89($nombreCarrera)
+{
+    $nombreCarrera = "Ingeniero_de_Sistemas";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaIngeniero_de_Sistemas($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p89, $p90, $p91) = explode(",", $data);
+    //var_dump($output);
+    echo $p89;
+}
+
+function pregunta90($nombreCarrera)
+{
+    $nombreCarrera = "Ingeniero_de_Sistemas";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaIngeniero_de_Sistemas($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p89, $p90, $p91) = explode(",", $data);
+    //var_dump($output);
+    echo $p90;
+}
+
+function pregunta91($nombreCarrera)
+{
+    $nombreCarrera = "Ingeniero_de_Sistemas";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaIngeniero_de_Sistemas($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p89, $p90, $p91) = explode(",", $data);
+    //var_dump($output);
+    echo $p91;
+}
+
+function pregunta92($nombreCarrera)
+{
+    $nombreCarrera = "Ingeniero_de_Materiales";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaIngeniero_de_Materiales($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p92, $p93, $p94) = explode(",", $data);
+    //var_dump($output);
+    echo $p92;
+}
+
+function pregunta93($nombreCarrera)
+{
+    $nombreCarrera = "Ingeniero_de_Materiales";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaIngeniero_de_Materiales($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p92, $p93, $p94) = explode(",", $data);
+    //var_dump($output);
+    echo $p93;
+}
+
+function pregunta94($nombreCarrera)
+{
+    $nombreCarrera = "Ingeniero_de_Materiales";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaIngeniero_de_Materiales($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p92, $p93, $p94) = explode(",", $data);
+    //var_dump($output);
+    echo $p94;
+}
+
+function pregunta95($nombreCarrera)
+{
+    $nombreCarrera = "Ingeniero_de_Minas";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaIngeniero_de_Minas($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p95, $p96, $p97) = explode(",", $data);
+    //var_dump($output);
+    echo $p95;
+}
+
+function pregunta96($nombreCarrera)
+{
+    $nombreCarrera = "Ingeniero_de_Minas";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaIngeniero_de_Minas($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p95, $p96, $p97) = explode(",", $data);
+    //var_dump($output);
+    echo $p96;
+}
+
+function pregunta97($nombreCarrera)
+{
+    $nombreCarrera = "Ingeniero_de_Minas";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaIngeniero_de_Minas($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p95, $p96, $p97) = explode(",", $data);
+    //var_dump($output);
+    echo $p97;
+}
+
+function pregunta98($nombreCarrera)
+{
+    $nombreCarrera = "Ingeniero_Mecatronico";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaIngeniero_Mecatronico($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p98, $p99, $p100) = explode(",", $data);
+    //var_dump($output);
+    echo $p98;
+}
+
+function pregunta99($nombreCarrera)
+{
+    $nombreCarrera = "Ingeniero_Mecatronico";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaIngeniero_Mecatronico($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p98, $p99, $p100) = explode(",", $data);
+    //var_dump($output);
+    echo $p99;
+}
+
+function pregunta100($nombreCarrera)
+{
+    $nombreCarrera = "Ingeniero_Mecatronico";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaIngeniero_Mecatronico($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p98, $p99, $p100) = explode(",", $data);
+    //var_dump($output);
+    echo $p100;
+}
+
+function pregunta101($nombreCarrera)
+{
+    $nombreCarrera = "Ingeniero_Quimico";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaIngeniero_Quimico($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p101, $p102, $p103) = explode(",", $data);
+    //var_dump($output);
+    echo $p101;
+}
+
+function pregunta102($nombreCarrera)
+{
+    $nombreCarrera = "Ingeniero_Quimico";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaIngeniero_Quimico($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p101, $p102, $p103) = explode(",", $data);
+    //var_dump($output);
+    echo $p102;
+}
+
+function pregunta103($nombreCarrera)
+{
+    $nombreCarrera = "Ingeniero_Quimico";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaIngeniero_Quimico($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p101, $p102, $p103) = explode(",", $data);
+    //var_dump($output);
+    echo $p103;
+}
+
+function pregunta104($nombreCarrera)
+{
+    $nombreCarrera = "Ingeniero_Ambiental";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaIngeniero_Ambiental($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p104, $p105, $p106) = explode(",", $data);
+    //var_dump($output);
+    echo $p104;
+}
+
+function pregunta105($nombreCarrera)
+{
+    $nombreCarrera = "Ingeniero_Ambiental";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaIngeniero_Ambiental($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p104, $p105, $p106) = explode(",", $data);
+    //var_dump($output);
+    echo $p105;
+}
+
+function pregunta106($nombreCarrera)
+{
+    $nombreCarrera = "Ingeniero_Ambiental";
+    $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "preguntaIngeniero_Ambiental($nombreCarrera). -t 'halt'"`;
+    exec($command);
+    //echo $command;
+    $data = $command;
+    list($p104, $p105, $p106) = explode(",", $data);
+    //var_dump($output);
+    echo $p106;
+}
 
 ?>
