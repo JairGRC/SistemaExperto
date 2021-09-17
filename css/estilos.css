@@ -28,6 +28,16 @@ padding-top: 15px;
     margin-left: 80%;
 }
 
+.card {
+    font-family: "Arial Narrow";
+}
+
+.card1 {
+    font-family: "Arial Narrow";
+    margin: 60px;
+    background-color: white;
+}
+
 footer {
     background-color: grey;
     position: absolute;
@@ -39,14 +49,19 @@ footer {
     font-weight: bold;
   }
 
-#cuerpo {
-    height:100%;
+.cuerpo {
+    height: 100vh;
     margin: 0;
-    font-family: "Arial Narrow"
+    font-family: "Arial Narrow";
+    background-color:#F6D9DB; 
 }
 
 #caja {
-    background-color:#F6D9DB; 
     padding: 30px; 
+
     height:693px;
 }
+
+    height: 100%;
+}
+

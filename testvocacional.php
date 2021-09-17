@@ -9,24 +9,31 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilos.css">
     <script src="js/script.js"></script>
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
     <title>Test Vocacional</title>
 </head>
+
 
 <body>
 
     <form name="prs" method="post" action="mostrar_Resultado.php" id="consulta" class=" row justify-content-center align-items-center" style="margin-top: 20vh;">
-        <div class="card " style="width: 70vw;">
 
+<body class="cuerpo">
+    <form name="prs" method="post" action="mostrar_Resultado.php" id="consulta" class=" row justify-content-center align-items-center" style="margin-top: 80px;">
+
+        <div class="card " style="width: 70vw;">
             <div class="card-header text-center">
                 <h2>Test Vocacional</h2>
             </div>
             <div class="card-body ms-4">
+            
                 <div id="Ingeniero_Agricola">
                     <?php
                     for ($i = 1; $i < 4; $i++) {
                         $temp = 'pregunta' . $i;
                     ?>
                         <div class="select-p">
+
                             <p><STRONG><?php call_user_func($GLOBALS["temp"], '$nombreCarrera');
                                         ?></STRONG></p>
                             <select id="<?php echo "p$i" ?>" name="<?php echo "p$i" ?>" class="form-select text-center " aria-label="Default select example">
@@ -34,6 +41,36 @@
                                 <option value="si">Si</option>
                                 <option value="no">No</option>
                             </select>
+
+                        <p><STRONG><?php call_user_func($GLOBALS["temp"],'$nombreCarrera');
+                        ?></STRONG></p>
+                        <select id="<?php echo "p$i"?>"   name="<?php echo "p$i"?>" class="form-select text-center " aria-label="Default select example" >
+                    <div class="select-p">
+                        <p><STRONG><?php pregunta1('$nombreCarrera'); ?></STRONG></p>
+                        <select name="p1" class="form-select text-center " aria-label="Default select example" id="p1">
+                            <option selected>Opcion</option>
+                            <option value="si">Si</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                    <div class="select-p">
+                        <p><STRONG><?php pregunta2('$nombreCarrera'); ?></STRONG></p>
+                        <select name="p2" class="form-select text-center " aria-label="Default select example" id="p2">
+                            <option selected>Opcion</option>
+                            <option value="si">Si</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                    
+                    <div class="select-p">
+                        <p><STRONG><?php pregunta3('$nombreCarrera'); ?></STRONG></p>
+                        <select name="p3" class="form-select text-center " aria-label="Default select example" id="p3">
+
+                            <option selected>Opcion</option>
+                            <option value="si">Si</option>
+                            <option value="no">No</option>
+                        </select>
+
                         </div>
                     <?php
                     }
