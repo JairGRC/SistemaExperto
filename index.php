@@ -51,11 +51,9 @@
                 </div>
 
                 <div id="Ingeniero_Zooctenista" style="display: none;">
-
-
                     <div class="select-p">
                         <p><STRONG><?php pregunta4('$nombreCarrera'); ?></STRONG></p>
-                        <select name="p4" class="form-select text-center " aria-label="Default select example">
+                        <select name="p4" class="form-select text-center " aria-label="Default select example" id="p4">
                             <option selected>Opcion</option>
                             <option value="si">Si</option>
                             <option value="no">No</option>
@@ -64,7 +62,7 @@
 
                     <div class="select-p">
                         <p><STRONG><?php pregunta5('$nombreCarrera'); ?></STRONG></p>
-                        <select name="p5" class="form-select text-center " aria-label="Default select example">
+                        <select name="p5" class="form-select text-center " aria-label="Default select example" id="p5">
                             <option selected>Opcion</option>
                             <option value="si">Si</option>
                             <option value="no">No</option>
@@ -73,7 +71,65 @@
 
                     <div class="select-p">
                         <p><STRONG><?php pregunta6('$nombreCarrera'); ?></STRONG></p>
-                        <select name="p6" class="form-select text-center " aria-label="Default select example">
+                        <select name="p6" class="form-select text-center " aria-label="Default select example" id="p6">
+                            <option selected>Opcion</option>
+                            <option value="si">Si</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div id="Ingeniero_Agronomo" style="display: none;">
+                    <div class="select-p">
+                        <p><STRONG><?php pregunta7('$nombreCarrera'); ?></STRONG></p>
+                        <select name="p7" class="form-select text-center " aria-label="Default select example">
+                            <option selected>Opcion</option>
+                            <option value="si">Si</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+
+                    <div class="select-p">
+                        <p><STRONG><?php pregunta8('$nombreCarrera'); ?></STRONG></p>
+                        <select name="p8" class="form-select text-center " aria-label="Default select example">
+                            <option selected>Opcion</option>
+                            <option value="si">Si</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+
+                    <div class="select-p">
+                        <p><STRONG><?php pregunta9('$nombreCarrera'); ?></STRONG></p>
+                        <select name="p9" class="form-select text-center " aria-label="Default select example">
+                            <option selected>Opcion</option>
+                            <option value="si">Si</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div id="Ingeniero_Informatico" style="display: none;">
+                    <div class="select-p">
+                        <p><STRONG><?php pregunta4('$nombreCarrera'); ?></STRONG></p>
+                        <select name="p10" class="form-select text-center " aria-label="Default select example">
+                            <option selected>Opcion</option>
+                            <option value="si">Si</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+
+                    <div class="select-p">
+                        <p><STRONG><?php pregunta5('$nombreCarrera'); ?></STRONG></p>
+                        <select name="p11" class="form-select text-center " aria-label="Default select example">
+                            <option selected>Opcion</option>
+                            <option value="si">Si</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+
+                    <div class="select-p">
+                        <p><STRONG><?php pregunta6('$nombreCarrera'); ?></STRONG></p>
+                        <select name="p12" class="form-select text-center " aria-label="Default select example">
                             <option selected>Opcion</option>
                             <option value="si">Si</option>
                             <option value="no">No</option>
