@@ -28,7 +28,7 @@
                         <div class="select-p">
                         <p><STRONG><?php call_user_func($GLOBALS["temp"],'$nombreCarrera');
                         ?></STRONG></p>
-                        <select id="<?php echo "p$i"?>"   name=" " class="form-select text-center " aria-label="Default select example" >
+                        <select id="<?php echo "p$i"?>"   name="<?php echo "p$i"?>" class="form-select text-center " aria-label="Default select example" >
                             <option selected>Opcion</option>
                             <option value="si">Si</option>
                             <option value="no">No</option>
@@ -48,7 +48,7 @@
                         <div class="select-p">
                         <p><STRONG><?php call_user_func($GLOBALS["temp"],'$nombreCarrera');
                         ?></STRONG></p>
-                        <select id="<?php echo "p$i"?>"   name=" " class="form-select text-center " aria-label="Default select example" >
+                        <select id="<?php echo "p$i"?>"   name="<?php echo "p$i"?>" class="form-select text-center " aria-label="Default select example" >
                             <option selected>Opcion</option>
                             <option value="si">Si</option>
                             <option value="no">No</option>
@@ -67,7 +67,7 @@
                         <div class="select-p">
                         <p><STRONG><?php call_user_func($GLOBALS["temp"],'$nombreCarrera');
                         ?></STRONG></p>
-                        <select id="<?php echo "p$i"?>"   name=" " class="form-select text-center " aria-label="Default select example" >
+                        <select id="<?php echo "p$i"?>"   name="<?php echo "p$i"?>" class="form-select text-center " aria-label="Default select example" >
                             <option selected>Opcion</option>
                             <option value="si">Si</option>
                             <option value="no">No</option>
@@ -76,7 +76,7 @@
                         <?php
                     }
                     ?>
-                    
+
                 </div>
 
                 <br>
