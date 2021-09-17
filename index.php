@@ -20,36 +20,27 @@
                 <h2>Test Vocacional</h2>
             </div>
             <div class="card-body ms-4">
-
                 <div id="Ingeniero_Agricola">
-                    <div class="select-p">
-                        <p><STRONG><?php pregunta1('$nombreCarrera'); ?></STRONG></p>
-                        <select id="p1" name="p1" class="form-select text-center " aria-label="Default select example" id="p1">
+                    <?php 
+                    for($i=1;$i<4;$i++){
+                        $temp='pregunta'.$i;
+                        ?>
+                        <div class="select-p">
+                        <p><STRONG><?php call_user_func($GLOBALS["temp"],'$nombreCarrera');
+                        ?></STRONG></p>
+                        <select id="<?php echo "p$i"?>"   name=" " class="form-select text-center " aria-label="Default select example" >
                             <option selected>Opcion</option>
                             <option value="si">Si</option>
                             <option value="no">No</option>
                         </select>
-                    </div>
 
-                    <div class="select-p">
-                        <p><STRONG><?php pregunta2('$nombreCarrera'); ?></STRONG></p>
-                        <select name="p2" class="form-select text-center " aria-label="Default select example" id="p2">
-                            <option selected>Opcion</option>
-                            <option value="si">Si</option>
-                            <option value="no">No</option>
-                        </select>
-                    </div>
-
-                    <div class="select-p">
-                        <p><STRONG><?php pregunta3('$nombreCarrera'); ?></STRONG></p>
-                        <select name="p3" class="form-select text-center " aria-label="Default select example" id="p3">
-                            <option selected>Opcion</option>
-                            <option value="si">Si</option>
-                            <option value="no">No</option>
-                        </select>
-                    </div>
+                        </div>
+                        <?php
+                    }
+                    ?>
                 </div>
 
+        
                 <div id="Ingeniero_Zooctenista" style="display: none;">
                     <div class="select-p">
                         <p><STRONG><?php pregunta4('$nombreCarrera'); ?></STRONG></p>
@@ -68,6 +59,7 @@
                             <option value="no">No</option>
                         </select>
                     </div>
+
 
                     <div class="select-p">
                         <p><STRONG><?php pregunta6('$nombreCarrera'); ?></STRONG></p>
@@ -108,34 +100,6 @@
                     </div>
                 </div>
 
-                <div id="Ingeniero_Informatico" style="display: none;">
-                    <div class="select-p">
-                        <p><STRONG><?php pregunta4('$nombreCarrera'); ?></STRONG></p>
-                        <select name="p10" class="form-select text-center " aria-label="Default select example">
-                            <option selected>Opcion</option>
-                            <option value="si">Si</option>
-                            <option value="no">No</option>
-                        </select>
-                    </div>
-
-                    <div class="select-p">
-                        <p><STRONG><?php pregunta5('$nombreCarrera'); ?></STRONG></p>
-                        <select name="p11" class="form-select text-center " aria-label="Default select example">
-                            <option selected>Opcion</option>
-                            <option value="si">Si</option>
-                            <option value="no">No</option>
-                        </select>
-                    </div>
-
-                    <div class="select-p">
-                        <p><STRONG><?php pregunta6('$nombreCarrera'); ?></STRONG></p>
-                        <select name="p12" class="form-select text-center " aria-label="Default select example">
-                            <option selected>Opcion</option>
-                            <option value="si">Si</option>
-                            <option value="no">No</option>
-                        </select>
-                    </div>
-                </div>
                 <br>
 
                 <br>
@@ -157,3 +121,4 @@
 
 </body>
 </html>
+
