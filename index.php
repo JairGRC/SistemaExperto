@@ -20,16 +20,16 @@
                 <h2>Test Vocacional</h2>
             </div>
             <div class="card-body ms-4">
-                
-                <div class="select-p">
-                    <p><STRONG><?php pregunta1('$nombreCarrera'); ?></STRONG></p>
-                    <select id="p1" name="p1" class="form-select text-center " aria-label="Default select example">
-                    <option selected>Opcion</option>    
-                    <option value="si">Si</option>
-                        <option value="no">No</option>
-                    </select>
-                </div>
 
+                <div id="Ingeniero_Agricola">
+                    <div class="select-p">
+                        <p><STRONG><?php pregunta1('$nombreCarrera'); ?></STRONG></p>
+                        <select id="p1" name="p1" class="form-select text-center " aria-label="Default select example" id="p1">
+                            <option selected>Opcion</option>
+                            <option value="si">Si</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
 
                     <div class="select-p">
                         <p><STRONG><?php pregunta2('$nombreCarrera'); ?></STRONG></p>
