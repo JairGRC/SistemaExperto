@@ -93,140 +93,140 @@ preguntaIngeniero_Agronomo(Ingeniero_Agronomo):-
     pregunta('9. ¿Tienes predisposicion para realizar un buen manejo y conservacion de los suelos agricolas?').
 
 preguntaIngeniero_Informatico(Ingeniero_Informatico):-
-    pregunta('¿Tienes habilidad para el manejo de lenguaje simbolico logico?'),
-    pregunta('¿Tienes poder de abstraccion e imaginacion?'),
-    pregunta('¿Tienes predisposicion para trabajar en equipo?').
+    pregunta('10. ¿Tienes habilidad para el manejo de lenguaje simbolico logico?'),
+    pregunta('11. ¿Tienes poder de abstraccion e imaginacion?'),
+    pregunta('12. ¿Tienes predisposicion para trabajar en equipo?').
 
 preguntaIngeniero_Estadistico(Ingeniero_Estadistico):-
-    pregunta('¿Tienes inclinacion por la matematica a la solucion de problemas industriales?'),
-    pregunta('¿Tienes vocacion por el manejo de gran cantidad de informacion y procesarla con el apoyo de computadoras?'),
-    pregunta('¿Tienes capacidad de liderazgo para interactuar en equipos de trabajo multidisciplinario?').
+    pregunta('13. ¿Tienes inclinacion por la matematica a la solucion de problemas industriales?'),
+    pregunta('14. ¿Tienes vocacion por el manejo de gran cantidad de informacion y procesarla con el apoyo de computadoras?'),
+    pregunta('15. ¿Tienes capacidad de liderazgo para interactuar en equipos de trabajo multidisciplinario?').
 
 preguntaLicenciado_en_Fisica(Licenciado_en_Fisica):-
-    pregunta('¿Tienes predisposicion para el trabajo cientifico?'),
-    pregunta('¿Tienes curiosidad e interes por los fenomenos naturales?'),
-    pregunta('¿Tienes ingenio y creatividad para desarrollar modelos concretos basados en aplicacion de las leyes fisicas?').
+    pregunta('16. ¿Tienes predisposicion para el trabajo cientifico?'),
+    pregunta('17. ¿Tienes curiosidad e interes por los fenomenos naturales?'),
+    pregunta('18. ¿Tienes ingenio y creatividad para desarrollar modelos concretos basados en aplicacion de las leyes fisicas?').
 preguntaLicenciado_en_Matematicas(Licenciado_en_Matematicas):-
-    pregunta('¿Tienes capacidad para la abstraccion y el pensamiento logico?'),
-    pregunta('¿Tienes habilidad para el manejo de las matematicas?'),
-    pregunta('¿Tienes alto grado de responsabilidad y disciplina para el trabajo?').
+    pregunta('19. ¿Tienes capacidad para la abstraccion y el pensamiento logico?'),
+    pregunta('20. ¿Tienes habilidad para el manejo de las matematicas?'),
+    pregunta('21. ¿Tienes alto grado de responsabilidad y disciplina para el trabajo?').
 preguntaBiologo(Biologo):-
-    pregunta('¿Tienes vocacion para las ciencias biologicas y afines?'),
-    pregunta('¿Tienes identificacion con la naturaleza?'),
-    pregunta('¿Tienes inquietud por investigar la dinamica de los seres vivos?').
+    pregunta('22. ¿Tienes vocacion para las ciencias biologicas y afines?'),
+    pregunta('23. ¿Tienes identificacion con la naturaleza?'),
+    pregunta('24. ¿Tienes inquietud por investigar la dinamica de los seres vivos?').
 preguntaBiologo_Microbiologo(Biologo_Microbiologo):-
-    pregunta('¿Tienes aptitud para trabajar en laboratorios manipulando instrumentos?'),
-    pregunta('¿Tienes vocacion para trabajar en laboratorios manipulando sustancias?'),
-    pregunta('¿Tienes aptitud para trabajar en laboratorios manipulando microorganismos?').
+    pregunta('25. ¿Tienes aptitud para trabajar en laboratorios manipulando instrumentos?'),
+    pregunta('26. ¿Tienes vocacion para trabajar en laboratorios manipulando sustancias?'),
+    pregunta('27. ¿Tienes aptitud para trabajar en laboratorios manipulando microorganismos?').
 preguntaBiologo_Pesquero(Biologo_Pesquero):- 
-    pregunta('¿Tienes vocacion de servicio para investigar organismos y ambientes acuaticos?'),
-    pregunta('¿Tienes capacidad  creativa, juicio critico y etica  para solucionar problemas en el sector pesquero?'),
-    pregunta('¿Tienes salud fisica y mental para trabajar en ambientes acuaticos con destreza en la natacion?').
+    pregunta('28. ¿Tienes vocacion de servicio para investigar organismos y ambientes acuaticos?'),
+    pregunta('29. ¿Tienes capacidad  creativa, juicio critico y etica  para solucionar problemas en el sector pesquero?'),
+    pregunta('30. ¿Tienes salud fisica y mental para trabajar en ambientes acuaticos con destreza en la natacion?').
 preguntaLicenciado_en_Administracion(Licenciado_en_Administracion):- 
-    pregunta('¿Tienes aptitudes para ejercer el liderazgo organizacional?'),
-    pregunta('¿Tienes vocacion para promover el trabajo en equipo?'),
-    pregunta('¿Tienes aptitudes para asumir responsabilidades en la toma de decisiones?').
+    pregunta('31. ¿Tienes aptitudes para ejercer el liderazgo organizacional?'),
+    pregunta('32. ¿Tienes vocacion para promover el trabajo en equipo?'),
+    pregunta('33. ¿Tienes aptitudes para asumir responsabilidades en la toma de decisiones?').
 preguntaContador_Publico(Contador_Publico):-
-    pregunta('¿Tienes aptitudes para ejercer el liderazgo personal y en grupos de trabajo?'),
-    pregunta('¿Tienes vocacion para  asumir responsabilidades  en  la adopcion de decisiones?'),
-    pregunta('¿Tienes habilidad matematica general, mercantil y financiera?').
+    pregunta('34. ¿Tienes aptitudes para ejercer el liderazgo personal y en grupos de trabajo?'),
+    pregunta('35. ¿Tienes vocacion para  asumir responsabilidades  en  la adopcion de decisiones?'),
+    pregunta('36. ¿Tienes habilidad matematica general, mercantil y financiera?').
 preguntaEconomista(Economista):-
-    pregunta('¿Tienes sentido realista y practico?'),
-    pregunta('¿Tienes aptitudes y actitudes para asumir posiciones de liderazgo?'),
-    pregunta('¿Tienes vision  futurista  para  proyectar politicas de largo alcance?').
+    pregunta('37. ¿Tienes sentido realista y practico?'),
+    pregunta('38. ¿Tienes aptitudes y actitudes para asumir posiciones de liderazgo?'),
+    pregunta('39. ¿Tienes vision  futurista  para  proyectar politicas de largo alcance?').
 preguntainicial(inicial):-
-    pregunta('¿Tienes equilibrio emocional estable?'),
-    pregunta('¿Tienes  expresion  adecuada  a  la  edad  de  los  ni¿os, mediante el lenguaje hablado y gestos?'),
-    pregunta('¿Tienes creatividad y dinamicidad?').
+    pregunta('40. ¿Tienes equilibrio emocional estable?'),
+    pregunta('41. ¿Tienes  expresion  adecuada  a  la  edad  de  los  ni¿os, mediante el lenguaje hablado y gestos?'),
+    pregunta('42. ¿Tienes creatividad y dinamicidad?').
 preguntaprimaria(primaria):-
-    pregunta('¿Tienes expresion adecuada a la edad de los ni¿os, mediante el lenguaje hablado, escrito y gestos?'),
-    pregunta('¿Tienes sensibilidad social y artistica?'),
-    pregunta('¿Tienes amabilidad y empatia?').
+    pregunta('43. ¿Tienes expresion adecuada a la edad de los ni¿os, mediante el lenguaje hablado, escrito y gestos?'),
+    pregunta('44. ¿Tienes sensibilidad social y artistica?'),
+    pregunta('45. ¿Tienes amabilidad y empatia?').
 
 preguntasecundaria(secundaria):-
-    pregunta('¿Tienes preocupacion por la formacion integral de la juventud?'),
-    pregunta('¿Tienes facilidad de expresion oral y corporal?'),
-    pregunta('¿No tienes deficiencia de audicion u otros defectos fisicos que afecten el ejercicio profesional?').
+    pregunta('46. ¿Tienes preocupacion por la formacion integral de la juventud?'),
+    pregunta('47. ¿Tienes facilidad de expresion oral y corporal?'),
+    pregunta('48. ¿No tienes deficiencia de audicion u otros defectos fisicos que afecten el ejercicio profesional?').
 
 preguntaccomunicacion(ccomunicacion):-
-    pregunta('¿Tienes empatia comunicacional?'),
-    pregunta('¿Tienes sensibilidad y responsabilidad social?'),
-    pregunta('¿Tienes habilidad para la comunicacion oral, escrita y audiovisual?').
+    pregunta('49. ¿Tienes empatia comunicacional?'),
+    pregunta('50. ¿Tienes sensibilidad y responsabilidad social?'),
+    pregunta('51. ¿Tienes habilidad para la comunicacion oral, escrita y audiovisual?').
 preguntaMedico_Cirujano(Medico_Cirujano):-
-    pregunta('¿Tienes vocacion de servicio ysensibilidad social?'),
-    pregunta('¿Tienes buena salud fisica y mental?'),
-    pregunta('¿Tienes capacidad de liderazgo y etica moral?').
+    pregunta('52. ¿Tienes vocacion de servicio ysensibilidad social?'),
+    pregunta('53. ¿Tienes buena salud fisica y mental?'),
+    pregunta('54. ¿Tienes capacidad de liderazgo y etica moral?').
 preguntaCirujano_Dentista(Cirujano_Dentista):-
-    pregunta('¿Tienes capacidad de analisis, sintesis y evaluacion?'),
-    pregunta('¿Tienes destreza manual y agudeza visual?'),
-    pregunta('¿Tienes comportamiento guiado por valores morales?').
+    pregunta('55. ¿Tienes capacidad de analisis, sintesis y evaluacion?'),
+    pregunta('56. ¿Tienes destreza manual y agudeza visual?'),
+    pregunta('57. ¿Tienes comportamiento guiado por valores morales?').
 preguntaAntropologo_Social(Antropologo_Social):-
-    pregunta('¿Tienes capacidad  de  analisis, observacion y descripcion del medio natural y cultural?'),
-    pregunta('¿Tienes serenidad de juicio a las distintas realidades?'),
-    pregunta('¿Tienes vista normal, habilidades manualesy de dibujo').
+    pregunta('58. ¿Tienes capacidad  de  analisis, observacion y descripcion del medio natural y cultural?'),
+    pregunta('59. ¿Tienes serenidad de juicio a las distintas realidades?'),
+    pregunta('60. ¿Tienes vista normal, habilidades manualesy de dibujo').
 preguntaTrabajador_Social(Trabajador_Social):-
-    pregunta('¿Tienes capacidad  de observacion, comprension, analisis y sintesis a problemas sociales?'),
-    pregunta('¿Tienes capacidad de liderazgo?'),
-    pregunta('¿Tienes vocacion de servicio y sensibilidad social?').
+    pregunta('61. ¿Tienes capacidad  de observacion, comprension, analisis y sintesis a problemas sociales?'),
+    pregunta('62. ¿Tienes capacidad de liderazgo?'),
+    pregunta('63. ¿Tienes vocacion de servicio y sensibilidad social?').
 preguntaLicenciado_En_Turismo(Licenciado_En_Turismo):-
-    pregunta('¿Tienes comprension de la naturaleza y sus motivaciones?'),
-    pregunta('¿Tienes critica frente a la realidad social vigente?'),
-    pregunta('¿Tienes actitud favorable haciael desarrollo sostenible?').
+    pregunta('64. ¿Tienes comprension de la naturaleza y sus motivaciones?'),
+    pregunta('65. ¿Tienes critica frente a la realidad social vigente?'),
+    pregunta('66. ¿Tienes actitud favorable haciael desarrollo sostenible?').
 preguntaLicenciado_En_Historia(Licenciado_En_Historia):-
-    pregunta('¿Tienes dominio del frances o ingles como segunda lengua?'),
-    pregunta('¿Tienes actitud para la investigacion?'),
-    pregunta('¿Tienes predisposicion para el trabajo de archivo y biblioteca?').
+    pregunta('67. ¿Tienes dominio del frances o ingles como segunda lengua?'),
+    pregunta('68. ¿Tienes actitud para la investigacion?'),
+    pregunta('69. ¿Tienes predisposicion para el trabajo de archivo y biblioteca?').
 
 preguntaAbogado(Abogado):-
-    pregunta('¿Tienes habilidad para la comunicacion escrita y oral?'),
-    pregunta('¿Tienes habilidad para resolver problemas?'),
-    pregunta('¿Tienes control de emociones?').
+    pregunta('70. ¿Tienes habilidad para la comunicacion escrita y oral?'),
+    pregunta('71. ¿Tienes habilidad para resolver problemas?'),
+    pregunta('72. ¿Tienes control de emociones?').
 
 preguntaEnfermero(Enfermero):-
-    pregunta('¿Tienes aptitud de servicio al ser humano, persona,familia y grupos comunitarios?'),
-    pregunta('¿Tienes aptitud para comunicarse e interelacionarse?'),
-    pregunta('¿Tienes dominio emocional asi como tener afinidad por las ciencias biologicas, psicologicas y sociales?').
+    pregunta('73. ¿Tienes aptitud de servicio al ser humano, persona,familia y grupos comunitarios?'),
+    pregunta('74. ¿Tienes aptitud para comunicarse e interelacionarse?'),
+    pregunta('75. ¿Tienes dominio emocional asi como tener afinidad por las ciencias biologicas, psicologicas y sociales?').
 preguntaQuimico_Farmaceutico(Quimico_Farmaceutico):-
-    pregunta('¿Tienes vocacion por el estudio de la biologia y la quimica?'),
-    pregunta('¿Tienes interes por el servicio en el  area  de  la  salud  con relacion al uso de medicamentos?'),
-    pregunta('¿Tienes inclinaciones y destreza para manipular aparatos, equipos y sustancias en laboratorios?').
+    pregunta('76. ¿Tienes vocacion por el estudio de la biologia y la quimica?'),
+    pregunta('77. ¿Tienes interes por el servicio en el  area  de  la  salud  con relacion al uso de medicamentos?'),
+    pregunta('78. ¿Tienes inclinaciones y destreza para manipular aparatos, equipos y sustancias en laboratorios?').
 preguntaIngeniero_Industrial(Ingeniero_Industrial):-
-    pregunta('¿Tienes aptitudes para el desarrollo de capacidades de las areas fisicas y matematicas?'),
-    pregunta('¿Tienes alto potencial creativo para el dise¿o e interpretacion de procesos?'),
-    pregunta('¿Tienes habilidad de ser proactivo y dinamico?').
-    pregunta('¿Tienes inclinaciones y destreza para manipular aparatos, equipos y sustancias en laboratorios?').
+    pregunta('79. ¿Tienes aptitudes para el desarrollo de capacidades de las areas fisicas y matematicas?'),
+    pregunta('80. ¿Tienes alto potencial creativo para el dise¿o e interpretacion de procesos?'),
+    pregunta('81. ¿Tienes habilidad de ser proactivo y dinamico?').
+    pregunta('82. ¿Tienes inclinaciones y destreza para manipular aparatos, equipos y sustancias en laboratorios?').
 preguntaIngeniero_Mecanico(Ingeniero_Mecanico):-
-    pregunta('¿Tienes elevada aptitud analitica?'),
-    pregunta('¿Tienes habilidad para representar graficamente?'),
-    pregunta('¿Tienes habilidad de crear y modificar cosas?').
+    pregunta('83. ¿Tienes elevada aptitud analitica?'),
+    pregunta('84. ¿Tienes habilidad para representar graficamente?'),
+    pregunta('85. ¿Tienes habilidad de crear y modificar cosas?').
 preguntaIngeniero_Metalurgico(Ingeniero_Metalurgico):-
-    pregunta('¿Tienes habilidad  y  destreza  para  discriminacionvisual y manipulacion de equipos e instrumentos?'),
-    pregunta('¿Tienes habilidad en quimica fisica y matematica?'),
-    pregunta('¿Tienes capacidad de liderazgo y sentido comun?').
+    pregunta('86. ¿Tienes habilidad  y  destreza  para  discriminacionvisual y manipulacion de equipos e instrumentos?'),
+    pregunta('87. ¿Tienes habilidad en quimica fisica y matematica?'),
+    pregunta('88. ¿Tienes capacidad de liderazgo y sentido comun?').
 preguntaIngeniero_de_Sistemas(Ingeniero_de_Sistemas):-
-	pregunta('¿Tienes  capacidades  analiticas   para  la  evaluacion  de problemas que plantean la realidad profesional?'),
-    pregunta('¿Tienes liderazgo  para  gerenciar  los  sistemas  integrales de informacion computarizada?'),
-    pregunta('¿Tienes capacidades organizativas para estructurar sistemas sociales y su interelacion comunicativa en tiempo real?').
+	pregunta('89. ¿Tienes  capacidades  analiticas   para  la  evaluacion  de problemas que plantean la realidad profesional?'),
+    pregunta('90. ¿Tienes liderazgo  para  gerenciar  los  sistemas  integrales de informacion computarizada?'),
+    pregunta('91. ¿Tienes capacidades organizativas para estructurar sistemas sociales y su interelacion comunicativa en tiempo real?').
 preguntaIngeniero_de_Materiales(Ingeniero_de_Materiales):-
-    pregunta('¿Tienes capacidad de abstraccion sentido logico y habilidad para discriminar actividades abstractas?'),
-    pregunta('¿Tienes amplia habilidad de fisica, quimica y matematicas?'),
-    pregunta('¿Tienes aptitud vocacional, coeficiente intelectual mayor al promedio?').
+    pregunta('92. ¿Tienes capacidad de abstraccion sentido logico y habilidad para discriminar actividades abstractas?'),
+    pregunta('93. ¿Tienes amplia habilidad de fisica, quimica y matematicas?'),
+    pregunta('94. ¿Tienes aptitud vocacional, coeficiente intelectual mayor al promedio?').
 preguntaIngeniero_de_Minas(Ingeniero_de_Minas):-
-    pregunta('¿Tienes capacidad de liderazgo y vocacion por la carrera?'),
-    pregunta('¿Tienes estado fisico bueno?'),
-    pregunta('¿Tienes aptitud para elaborar en las alturas de las cordilleras?').
+    pregunta('95. ¿Tienes capacidad de liderazgo y vocacion por la carrera?'),
+    pregunta('96. ¿Tienes estado fisico bueno?'),
+    pregunta('97. ¿Tienes aptitud para elaborar en las alturas de las cordilleras?').
 preguntaIngeniero_Mecatronico(Ingeniero_Mecatronico):-
-    pregunta('¿Tienes   elevada   aptitud   analitica   para   investigar   el mundo como es?'),
-    pregunta('¿Tienes  inventiva  para  crear  el  mundo  que  nunca  has ido?'),
-    pregunta('¿Tienes  capacidad  para  desarrollar  nuevas  soluciones tecnologicas?').
+    pregunta('98. ¿Tienes   elevada   aptitud   analitica   para   investigar   el mundo como es?'),
+    pregunta('99. ¿Tienes  inventiva  para  crear  el  mundo  que  nunca  has ido?'),
+    pregunta('100. ¿Tienes  capacidad  para  desarrollar  nuevas  soluciones tecnologicas?').
 preguntaIngeniero_Quimico(Ingeniero_Quimico):-
-    pregunta('¿Tienes buenas condiciones sensoriales y memoria?'),
-    pregunta('¿Tienes capacidad deductiva?'),
-    pregunta('¿Tienes capacidad para plantear soluciones de tipo practico?').
+    pregunta('101. ¿Tienes buenas condiciones sensoriales y memoria?'),
+    pregunta('102. ¿Tienes capacidad deductiva?'),
+    pregunta('103. ¿Tienes capacidad para plantear soluciones de tipo practico?').
 preguntaIngeniero_Ambiental(Ingeniero_Ambiental):-
-    pregunta('¿Tienes capacidad para desarrollar soluciones tecnologicas limpias?'),
-    pregunta('¿Tienes actitud analitica proactiva?'),
-    pregunta('¿Tienes vocacion para investigar, planificar, dise¿ar y solucionar problemas sobre nuestro medio ambiente?').
+    pregunta('104. ¿Tienes capacidad para desarrollar soluciones tecnologicas limpias?'),
+    pregunta('105. ¿Tienes actitud analitica proactiva?'),
+    pregunta('106. ¿Tienes vocacion para investigar, planificar, dise¿ar y solucionar problemas sobre nuestro medio ambiente?').
 
 
 %Descripcion de cada carrera
@@ -287,8 +287,22 @@ descripcion_Quimico_Farmaceutico(X):-descripcion25(X,Y),write(Y).
 descripcion25(Quimico_Farmaceutico,'El Químico Farmacéutico podrá planificar, proyectar, instalar, poner en marcha, dirigir y controlar los procesos de producción y control de calidad, tanto de los medicamentos, como de los productos fabricados por la industria cosmética.').
 descripcion_Ingeniero_Industrial(X):-descripcion26(X,Y),write(Y).
 descripcion26(Ingeniero_Industrial,'La Ingeniería Industrial es la rama que se ocupa de la optimización de procesos y recursos humanos, técnicos e informativos; así como el manejo de los sistemas de producción, llevando a su organización a ser más competitiva y sostenible.').
-
-
+descripcion_Ingeniero_Mecanico(X):-descripcion27(X,Y),write(Y).
+descripcion27(Ingeniero_Mecanico,'La ingeniería mecánica es una de las ramas más antiguas e importantes de la ingeniería, dicha disciplina estudia y perfecciona específicamente los principios de la termodinámica, trasferencia de calor, mecánica,vibraciones, mecánica clásica, mecánica cuántica, mecánica de fluidos, análisis estructural, estática, dinámica, ecuación diferencial, Ondas, Campos, trigonometría, cálculo vectorial, Teoría de control y ciencia de materiales para el diseño y análisis de diversos elementos usados en la actualidad, tales como maquinaria con diversos fines (térmicos, hidráulicos, transporte, manufactura, robótica), así como también de sistemas de ventilación, refrigeración, vehículos motorizados terrestres, aéreos, marítimos y espaciales, entre otras aplicaciones.').
+descripcion_Ingeniero_Metalurgico(X):-descripcion28(X,Y),write(Y).
+descripcion28(Ingeniero_Metalurgico,'El Ingeniero Metalurgista tendrá también como funciones principales: ... Determinar y seleccionar la materia prima, combustible, reactivos y otros materiales fundamentales para los procesos metalúrgicos. Interpretar y diagnosticar los problemas más generales de las operaciones básicas de los procesos metalúrgicos.').
+descripcion_Ingeniero_de_Sistemas(X):-descripcion29(X,Y),write(Y).
+descripcion29(Ingeniero_de_Sistemas,'Los ingenieros de sistemas diseñan, desarrollan y mejoran sistemas de ingeniería. ... Los ingenieros de sistemas son los responsables del funcionamiento adecuado de todo el sistema. Se implican en la investigación y el diseño, la fabricación, reparaciones, mantenimiento y marketing.').
+descripcion_Ingeniero_de_Materiales(X):-descripcion30(X,Y),write(Y).
+descripcion30(Ingeniero_de_Materiales,'Los ingenieros de materiales estudian las cualidades, características y usos de los materiales. Investigan y desarrollan nuevos materiales y mejoran el uso de los ya existentes. Prueba cómo reaccionan los materiales ante variables, tales como la temperatura, la presión y el estrés, y resuelven problemas como la corrosión y la fatiga del metal.').
+descripcion_Ingeniero_de_Minas(X):-descripcion31(X,Y),write(Y).
+descripcion31(Ingeniero_de_Minas,'La ingeniería de minas centra sus esfuerzos en actividades como: La extracción mediante técnicas y labores mineras de los recursos minerales. ... Obtención de licencias y ejecución de planes de labores así como planificación. Ingeniero de operaciones in situ en mina.').
+descripcion_Ingeniero_Mecatronico(X):-descripcion32(X,Y),write(Y).
+descripcion32(Ingeniero_Mecatronico,'La Mecatrónica es una ingeniería que une conocimientos de mecánica, electrónica, informática y los sistemas de control. El objetivo de un ingeniero en mecatrónica es mejorar procesos automatizados a través del diseño, la planeación y el desarrollo de productos y servicios que se aplican en industrias como la automotriz y la aeronáutica').
+descripcion_Ingeniero_Quimico(X):-descripcion33(X,Y),write(Y).
+descripcion33(Ingeniero_Quimico,'La Ingeniería Química te enseñará a comprender los procesos químicos que te ayudarán a transformar tu talento en realidad, porque podrás escalar un producto de nivel laboratorio a nivel industrial con sólidos conocimientos de ingeniería, calidad y seguridad.').
+descripcion_Ingeniero_Ambiental(X):-descripcion34(X,Y),write(Y).
+descripcion34(Ingeniero_Ambiental,'La carrera de Ingeniería Ambiental tiene como fin entender los procesos del medio ambiente en relación a las personas y la preservación de recursos naturales. En ese sentido, busca prevenir, afrontar y remediar los daños ocasionados por la actividad humana en detrimento de la naturaleza.').
 
 
 

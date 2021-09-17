@@ -114,7 +114,30 @@ function descripcion($nombreCarrera)
         case "Ingeniero_Industrial":
             $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "descripcion_Ingeniero_Industrial($nombreCarrera). -t 'halt'"`;
             break;
-        
+        case "Ingeniero_Mecanico":
+            $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "descripcion_Ingeniero_Mecanico($nombreCarrera). -t 'halt'"`;
+            break;
+        case "Ingeniero_Metalurgico":
+            $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "descripcion_Ingeniero_Metalurgico($nombreCarrera). -t 'halt'"`;
+            break;
+        case "Ingeniero_de_Sistemas":
+            $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "descripcion_Ingeniero_de_Sistemas($nombreCarrera). -t 'halt'"`;
+            break;  
+        case "Ingeniero_de_Materiales":
+            $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "descripcion_Ingeniero_de_Materiales($nombreCarrera). -t 'halt'"`;
+            break;   
+        case "Ingeniero_de_Minas":
+            $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "descripcion_Ingeniero_de_Minas($nombreCarrera). -t 'halt'"`;
+            break; 
+        case "Ingeniero_Mecatronico":
+            $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "descripcion_Ingeniero_Mecatronico($nombreCarrera). -t 'halt'"`;
+            break; 
+        case "Ingeniero_Quimico":
+            $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "descripcion_Ingeniero_Quimico($nombreCarrera). -t 'halt'"`;
+            break; 
+        case "Ingeniero_Ambiental":
+            $command = `swipl -s C:\laragon\www\SistemaExperto/ejemplo.pl -g "descripcion_Ingeniero_Ambiental($nombreCarrera). -t 'halt'"`;
+            break; 
     }
     exec($command, $descripcion);
     return $command;

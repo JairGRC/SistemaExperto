@@ -30,7 +30,6 @@
                             <option value="no">No</option>
                         </select>
                     </div>
-
                     <div class="select-p">
                         <p><STRONG><?php pregunta2('$nombreCarrera'); ?></STRONG></p>
                         <select name="p2" class="form-select text-center " aria-label="Default select example" id="p2">
@@ -39,7 +38,7 @@
                             <option value="no">No</option>
                         </select>
                     </div>
-
+                    
                     <div class="select-p">
                         <p><STRONG><?php pregunta3('$nombreCarrera'); ?></STRONG></p>
                         <select name="p3" class="form-select text-center " aria-label="Default select example" id="p3">
