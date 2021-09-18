@@ -2,5 +2,5 @@
 Sistema web conexion de php con Prolog
 Test vocacional
 
-Correr el proyecto con laragon y la siguiente ruta 
-C:\laragon\www\SistemaExperto/ejemplo.pl
+Correr el proyecto con laragon y copiar el proyecto en la siguiente ruta : 
+C:\laragon\www\
